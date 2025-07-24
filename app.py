@@ -12,7 +12,7 @@ def get_player_id(name):
 def get_recent_strikeouts(player_id, num_games):
     today = date.today()
     start = today - timedelta(days=180)
-    # NO PLAYER_ID used here!
+    # DO NOT use player_id in schedule!
     schedule = statsapi.schedule(
         start_date=start.strftime('%m/%d/%Y'),
         end_date=today.strftime('%m/%d/%Y'),
