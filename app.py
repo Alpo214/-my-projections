@@ -14,7 +14,7 @@ def get_recent_strikeouts(player_id, num_games):
     """Get most recent MLB games with strikeout stats for this pitcher."""
     today = date.today()
     start = today - timedelta(days=180)
-    # Get schedule for all MLB teams
+    # Get schedule for all MLB games in range
     schedule = statsapi.schedule(
         start_date=start.strftime('%m/%d/%Y'),
         end_date=today.strftime('%m/%d/%Y'),
@@ -23,10 +23,9 @@ def get_recent_strikeouts(player_id, num_games):
     # Compile games (most recent first)
     pitch_logs = []
     for game in reversed(schedule):
-        # Only consider Regular Season and games that have finished
         if game.get('status') != 'Final':
             continue
-        # Get boxscore data for pitcher stats
+        # Get boxscore
         box = statsapi.boxscore_data(game['game_id'])
         for team_key in ['home', 'away']:
             pitchers = box[team_key]['pitchers']
@@ -41,7 +40,7 @@ def get_recent_strikeouts(player_id, num_games):
                             'opponent': game['away_name'] if team_key == 'home' else game['home_name'],
                             'strikeouts': int(so)
                         })
-    # Keep only most recent N games
+    # Only the N most recent games
     pitch_logs = sorted(pitch_logs, key=lambda x: x['date'])
     return pitch_logs[-num_games:] if len(pitch_logs) >= num_games else pitch_logs
 
@@ -95,3 +94,4 @@ if pitcher_name:
         st.error(f"Could not find MLB pitcher named '{pitcher_name}'. Check spelling or try another player.")
 else:
     st.info("Enter a pitcher’s name to begin.")
+
