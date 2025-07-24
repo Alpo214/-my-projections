@@ -6,22 +6,19 @@ from datetime import date, timedelta
 st.title("MLB Pitcher Strikeouts Over/Under Probability Analyzer")
 
 def get_player_id(name):
-    """Find MLBAM player ID from pitcher name."""
     results = statsapi.lookup_player(name)
     return results[0]['id'] if results else None
 
 def get_recent_strikeouts(player_id, num_games):
-    """Get most recent MLB games with strikeout stats for this pitcher."""
     today = date.today()
     start = today - timedelta(days=180)
-    # Get schedule WITHOUT player_id
+    # NO PLAYER_ID used here!
     schedule = statsapi.schedule(
         start_date=start.strftime('%m/%d/%Y'),
         end_date=today.strftime('%m/%d/%Y'),
-        sportId=1  # MLB
+        sportId=1
     )
     pitch_logs = []
-    # Newest games last
     for game in reversed(schedule):
         if game.get('status') != 'Final':
             continue
@@ -31,15 +28,13 @@ def get_recent_strikeouts(player_id, num_games):
             players = box[team_key]['players']
             for pid in pitchers:
                 if int(pid) == int(player_id):
-                    stats_dict = players[pid]['stats']
-                    so = stats_dict['pitching'].get('strikeOuts')
+                    so = players[pid]['stats']['pitching'].get('strikeOuts')
                     if so is not None:
                         pitch_logs.append({
                             'date': game['game_date'],
-                            'opponent': game['away_name'] if team_key == 'home' else game['home_name'],
+                            'opponent': box['away']['team'] if team_key == 'home' else box['home']['team'],
                             'strikeouts': int(so)
                         })
-    # Most recent N games
     pitch_logs = sorted(pitch_logs, key=lambda x: x['date'])
     return pitch_logs[-num_games:] if len(pitch_logs) >= num_games else pitch_logs
 
@@ -58,7 +53,6 @@ if pitcher_name:
             st.write(f"Last {len(df)} games for **{pitcher_name}**")
             st.dataframe(df[['date', 'opponent', 'strikeouts']].sort_values('date'))
 
-            # Probabilities
             over = (df['strikeouts'] > custom_line).sum()
             under = (df['strikeouts'] < custom_line).sum()
             push = (df['strikeouts'] == custom_line).sum()
@@ -83,7 +77,6 @@ if pitcher_name:
                 st.success(f"Best Probability: **Under** ({p_under:.1f}%)")
 
             st.line_chart(df.set_index('date')['strikeouts'])
-            st.caption("Change the O/U line or number of games and the results update instantly!")
         else:
             st.warning(f"No pitching game logs with strikeouts found for '{pitcher_name}' in the last {num_games} games.")
     else:
