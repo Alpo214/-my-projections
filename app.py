@@ -25,3 +25,4 @@ def get_recent_strikeouts(player_id, num_games):
                         })
     pitch_logs = sorted(pitch_logs, key=lambda x: x['date'])
     return pitch_logs[-num_games:] if len(pitch_logs) >= num_games else pitch_logs
+
