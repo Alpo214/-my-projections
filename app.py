@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import statsapi  # pip install MLB-StatsAPI
+import statsapi
 from datetime import date, timedelta
 
 st.title("MLB Pitcher Strikeouts Over/Under Probability Analyzer")
@@ -11,25 +11,39 @@ def get_player_id(name):
     return results[0]['id'] if results else None
 
 def get_recent_strikeouts(player_id, num_games):
-    """Get most recent games with strikeout stats for this pitcher."""
+    """Get most recent MLB games with strikeout stats for this pitcher."""
     today = date.today()
     start = today - timedelta(days=180)
+    # Get schedule for all MLB teams
     schedule = statsapi.schedule(
         start_date=start.strftime('%m/%d/%Y'),
         end_date=today.strftime('%m/%d/%Y'),
-        player_id=player_id
+        sportId=1  # Major League Baseball
     )
-    # Compile list of games with strikeout stats
+    # Compile games (most recent first)
     pitch_logs = []
-    for game in reversed(schedule):  # Reverse for most recent games first
-        for stat in game.get('pitching', []):
-            if stat.get('player_id') == player_id and 'strikeOuts' in stat:
-                pitch_logs.append({
-                    'date': game['game_date'],
-                    'opponent': game['opponent_name'],
-                    'strikeouts': stat['strikeOuts']
-                })
-    return pitch_logs[-num_games:] if len(pitch_logs) >= num_games else pitch_logs  # last N games
+    for game in reversed(schedule):
+        # Only consider Regular Season and games that have finished
+        if game.get('status') != 'Final':
+            continue
+        # Get boxscore data for pitcher stats
+        box = statsapi.boxscore_data(game['game_id'])
+        for team_key in ['home', 'away']:
+            pitchers = box[team_key]['pitchers']
+            players = box[team_key]['players']
+            for pid in pitchers:
+                if int(pid) == player_id:
+                    stats_dict = players[pid]['stats']
+                    so = stats_dict['pitching'].get('strikeOuts')
+                    if so is not None:
+                        pitch_logs.append({
+                            'date': game['game_date'],
+                            'opponent': game['away_name'] if team_key == 'home' else game['home_name'],
+                            'strikeouts': int(so)
+                        })
+    # Keep only most recent N games
+    pitch_logs = sorted(pitch_logs, key=lambda x: x['date'])
+    return pitch_logs[-num_games:] if len(pitch_logs) >= num_games else pitch_logs
 
 pitcher_name = st.text_input("Enter Pitcher's Name (e.g., Spencer Strider):")
 num_games = st.slider("How many most recent games to analyze?", min_value=3, max_value=30, value=10)
@@ -43,7 +57,6 @@ if pitcher_name:
             df = pd.DataFrame(logs)
             df['strikeouts'] = pd.to_numeric(df['strikeouts'], errors='coerce')
             df['date'] = pd.to_datetime(df['date'])
-            df = df.dropna(subset=['strikeouts'])
 
             st.write(f"Last {len(df)} games for **{pitcher_name}**")
             st.dataframe(df.sort_values('date')[['date', 'opponent', 'strikeouts']])
