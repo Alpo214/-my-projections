@@ -14,24 +14,23 @@ def get_recent_strikeouts(player_id, num_games):
     """Get most recent MLB games with strikeout stats for this pitcher."""
     today = date.today()
     start = today - timedelta(days=180)
-    # Get schedule for all MLB games in range
+    # Get schedule WITHOUT player_id
     schedule = statsapi.schedule(
         start_date=start.strftime('%m/%d/%Y'),
         end_date=today.strftime('%m/%d/%Y'),
-        sportId=1  # Major League Baseball
+        sportId=1  # MLB
     )
-    # Compile games (most recent first)
     pitch_logs = []
+    # Newest games last
     for game in reversed(schedule):
         if game.get('status') != 'Final':
             continue
-        # Get boxscore
         box = statsapi.boxscore_data(game['game_id'])
         for team_key in ['home', 'away']:
             pitchers = box[team_key]['pitchers']
             players = box[team_key]['players']
             for pid in pitchers:
-                if int(pid) == player_id:
+                if int(pid) == int(player_id):
                     stats_dict = players[pid]['stats']
                     so = stats_dict['pitching'].get('strikeOuts')
                     if so is not None:
@@ -40,7 +39,7 @@ def get_recent_strikeouts(player_id, num_games):
                             'opponent': game['away_name'] if team_key == 'home' else game['home_name'],
                             'strikeouts': int(so)
                         })
-    # Only the N most recent games
+    # Most recent N games
     pitch_logs = sorted(pitch_logs, key=lambda x: x['date'])
     return pitch_logs[-num_games:] if len(pitch_logs) >= num_games else pitch_logs
 
@@ -54,39 +53,36 @@ if pitcher_name:
         logs = get_recent_strikeouts(player_id, num_games)
         if logs:
             df = pd.DataFrame(logs)
-            df['strikeouts'] = pd.to_numeric(df['strikeouts'], errors='coerce')
+            df['strikeouts'] = pd.to_numeric(df['strikeouts'])
             df['date'] = pd.to_datetime(df['date'])
-
             st.write(f"Last {len(df)} games for **{pitcher_name}**")
-            st.dataframe(df.sort_values('date')[['date', 'opponent', 'strikeouts']])
+            st.dataframe(df[['date', 'opponent', 'strikeouts']].sort_values('date'))
 
-            # Probability calculations
-            strikes = df['strikeouts']
-            over_count = (strikes > custom_line).sum()
-            under_count = (strikes < custom_line).sum()
-            push_count = (strikes == custom_line).sum()
+            # Probabilities
+            over = (df['strikeouts'] > custom_line).sum()
+            under = (df['strikeouts'] < custom_line).sum()
+            push = (df['strikeouts'] == custom_line).sum()
             total = len(df)
-            prob_over = 100 * over_count / total if total else 0
-            prob_under = 100 * under_count / total if total else 0
-            prob_push = 100 * push_count / total if total else 0
+            p_over = 100 * over / total if total else 0
+            p_under = 100 * under / total if total else 0
+            p_push = 100 * push / total if total else 0
 
             st.subheader("Projection & Probability (PrizePicks Line)")
             st.markdown(f"""
-- **Average strikeouts**: `{strikes.mean():.2f}`
+- **Average strikeouts**: `{df['strikeouts'].mean():.2f}`
 - **Your O/U line**: `{custom_line}`
-- **Over**: `{over_count} times ({prob_over:.1f}%)`
-- **Under**: `{under_count} times ({prob_under:.1f}%)`
-- **Push (exact)**: `{push_count} times ({prob_push:.1f}%)`
+- **Over**: `{over} times ({p_over:.1f}%)`
+- **Under**: `{under} times ({p_under:.1f}%)`
+- **Push (exact)**: `{push} times ({p_push:.1f}%)`
 """)
-            if abs(prob_over - prob_under) < 5:
+            if abs(p_over - p_under) < 5:
                 st.info("No strong edge detected: probabilities nearly equal.")
-            elif prob_over > prob_under:
-                st.success(f"Best Probability: **Over** ({prob_over:.1f}%)")
+            elif p_over > p_under:
+                st.success(f"Best Probability: **Over** ({p_over:.1f}%)")
             else:
-                st.success(f"Best Probability: **Under** ({prob_under:.1f}%)")
+                st.success(f"Best Probability: **Under** ({p_under:.1f}%)")
 
             st.line_chart(df.set_index('date')['strikeouts'])
-
             st.caption("Change the O/U line or number of games and the results update instantly!")
         else:
             st.warning(f"No pitching game logs with strikeouts found for '{pitcher_name}' in the last {num_games} games.")
@@ -94,4 +90,3 @@ if pitcher_name:
         st.error(f"Could not find MLB pitcher named '{pitcher_name}'. Check spelling or try another player.")
 else:
     st.info("Enter a pitcher’s name to begin.")
-
