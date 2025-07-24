@@ -1,100 +1,92 @@
-import pandas as pd
 import streamlit as st
+import pandas as pd
+import statsapi  # Python wrapper for public MLB Stats API
 
-st.title("Pitcher Strikeouts Probability Analyzer — Large Sample Mode")
+st.title("Pitcher Strikeouts Live Projection — Powered by Public MLB API")
 
-def load_csv(uploaded_file):
-    try:
-        df = pd.read_csv(uploaded_file)
-    except UnicodeDecodeError:
-        uploaded_file.seek(0)
-        try:
-            df = pd.read_csv(uploaded_file, encoding='latin1')
-        except UnicodeDecodeError:
-            uploaded_file.seek(0)
-            df = pd.read_csv(uploaded_file, encoding='cp1252')
-    # Drop index column if present
-    if df.columns[0].startswith('Unnamed') or df.columns[0] == '':
-        df = df.iloc[:, 1:]
-    return df
+# Helper: Get player ID from name
+def get_player_id(name):
+    players = statsapi.lookup_player(name)
+    if players:
+        return players[0]['id']
+    return None
 
-uploaded_file = st.file_uploader("Upload your pitcher data CSV", type="csv")
-if uploaded_file is not None:
-    df = load_csv(uploaded_file)
-    st.write("Data preview:")
-    st.write(df.head())
+# Helper: Get game logs and strikeouts for pitcher
+def get_pitcher_strikeouts(player_id, num_games):
+    # MLB uses YYYY-MM-DD for dates
+    # Find today's date and roll back enough days to cover recent games
+    from datetime import date, timedelta
+    today = date.today()
+    days_back = 180  # Up to 6 months for maximal flexibility
+    start = today - timedelta(days=days_back)
+    schedule = statsapi.schedule(
+        start_date=start.strftime('%m/%d/%Y'),
+        end_date=today.strftime('%m/%d/%Y'),
+        player_id=player_id
+    )
 
-    required_cols = ['pitcher_name', 'actual_strikeouts', 'date']
-    missing = [col for col in required_cols if col not in df.columns]
-    if missing:
-        st.error(f"Missing columns in your CSV: {', '.join(missing)}")
-    else:
-        pitcher = st.selectbox("Select Pitcher", sorted(df['pitcher_name'].dropna().unique()))
-        pitcher_data = df[df['pitcher_name'] == pitcher].copy()
+    # Filter only games where player has pitching stats
+    pitch_logs = []
+    for game in reversed(schedule):
+        stats = game.get('pitching', [])
+        for entry in stats:
+            if entry.get('player_id') == player_id:
+                pitch_logs.append({
+                    'date': game['game_date'],
+                    'opponent': game['opponent_name'],
+                    'strikeouts': entry.get('note', entry.get('strikeOuts', None))
+                })
+    # Only keep most recent requested games with valid strikeout data
+    logs = [log for log in pitch_logs if log['strikeouts'] is not None]
+    return logs[-num_games:] if len(logs) >= num_games else logs
 
-        # Parse and sort by date
-        pitcher_data['date'] = pd.to_datetime(pitcher_data['date'], errors='coerce')
-        pitcher_data = pitcher_data.sort_values('date')
+# --- Streamlit App ---
+pitcher_name = st.text_input("Enter Pitcher's Name (e.g., Spencer Strider):")
+num_games = st.slider("How many most recent games to analyze?", 3, 30, 10)
+custom_line = st.number_input("Enter your Over/Under strikeout line (e.g., 6.5):", step=0.5, value=6.5)
 
-        st.write(f"Games for {pitcher}:")
-        st.write(
-            pitcher_data[['date', 'opponent'] + [c for c in ['actual_strikeouts'] if c in pitcher_data.columns]]
-        )
+if pitcher_name:
+    player_id = get_player_id(pitcher_name)
+    if player_id:
+        logs = get_pitcher_strikeouts(player_id, num_games)
+        if logs:
+            df = pd.DataFrame(logs)
+            df['strikeouts'] = pd.to_numeric(df['strikeouts'], errors='coerce')
+            df['date'] = pd.to_datetime(df['date'])
+            df = df.dropna(subset=['strikeouts'])
 
-        max_games = len(pitcher_data)
-        default_games = min(20, max_games)
-        num_games = st.slider(
-            "How many most recent games to analyze?",
-            min_value=3,
-            max_value=max_games,
-            value=default_games,
-            step=1
-        )
-        recent_games = pitcher_data.tail(num_games)
+            st.write(f"Last {len(df)} games for **{pitcher_name}**:")
+            st.dataframe(df.sort_values('date')[['date', 'opponent', 'strikeouts']])
 
-        # User sets custom over/under line
-        user_line = st.number_input(
-            "Set your Over/Under strikeouts line (e.g., 5.5):",
-            step=0.5,
-            value=5.5
-        )
+            avg_so = df['strikeouts'].mean()
+            over = (df['strikeouts'] > custom_line).sum()
+            under = (df['strikeouts'] < custom_line).sum()
+            push = (df['strikeouts'] == custom_line).sum()
+            total = len(df)
+            prob_over = 100 * over / total if total else 0
+            prob_under = 100 * under / total if total else 0
 
-        # Calculate
-        so = pd.to_numeric(recent_games['actual_strikeouts'], errors='coerce').dropna()
-        over_count = (so > user_line).sum()
-        under_count = (so < user_line).sum()
-        push_count = (so == user_line).sum()
-        total_games = len(so)
+            st.markdown(f"""
+            - **Average strikeouts:** `{avg_so:.2f}`
+            - **Probability Over {custom_line}:** `{prob_over:.1f}%` ({over}/{total})
+            - **Probability Under {custom_line}:** `{prob_under:.1f}%` ({under}/{total})
+            - **Push (exact match):** `{push}` games
+            """)
 
-        prob_over = over_count / total_games * 100 if total_games else 0
-        prob_under = under_count / total_games * 100 if total_games else 0
-        prob_push = push_count / total_games * 100 if total_games else 0
+            if abs(prob_over - prob_under) < 5:
+                st.info("No strong edge detected: probabilities nearly equal.")
+            elif prob_over > prob_under:
+                st.success(f"Best probability: **Over** ({prob_over:.1f}%)")
+            else:
+                st.success(f"Best probability: **Under** ({prob_under:.1f}%)")
 
-        if abs(prob_over - prob_under) < 5:
-            recommendation = "No clear edge (chance is about 50/50)."
-        elif prob_over > prob_under:
-            recommendation = f"Best probability: **Over** ({prob_over:.1f}%)"
+            st.line_chart(df.set_index('date')['strikeouts'])
         else:
-            recommendation = f"Best probability: **Under** ({prob_under:.1f}%)"
-
-        st.subheader("Strikeout Projection & Probability (Larger Sample)")
-        st.markdown(f"""
-- Average strikeouts (*last {total_games} games*): **{so.mean():.2f}**
-- Your line: **{user_line}**
-- Over: **{over_count} times ({prob_over:.1f}%)**
-- Under: **{under_count} times ({prob_under:.1f}%)**
-- Push (exact): **{push_count} times ({prob_push:.1f}%)**
-""")
-        st.success(recommendation)
-
-        st.line_chart(pd.DataFrame({
-            'Strikeouts': so.values
-        }, index=recent_games['date'].dt.strftime('%Y-%m-%d')))
-
-        st.caption(
-            "Adjust the games slider to use a larger or smaller sample for your projections — "
-            "analyzing more games typically gives a more stable, trustworthy probability!"
-        )
+            st.warning(f"No MLB game logs with pitching stats found for '{pitcher_name}' in the last {num_games} games.")
+    else:
+        st.error(f"Could not find MLB pitcher named '{pitcher_name}'. Check spelling or try a different name.")
 
 else:
+    st.info("Enter a pitcher’s name and choose your settings to begin.")
+
     st.info("Upload your data CSV to start.")
