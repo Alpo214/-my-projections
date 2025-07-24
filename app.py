@@ -44,4 +44,57 @@ if uploaded_file is not None:
         max_games = len(pitcher_data)
         default_games = min(20, max_games)
         num_games = st.slider(
-            "How many most recent games
+            "How many most recent games to analyze?",
+            min_value=3,
+            max_value=max_games,
+            value=default_games,
+            step=1
+        )
+        recent_games = pitcher_data.tail(num_games)
+
+        # User sets custom over/under line
+        user_line = st.number_input(
+            "Set your Over/Under strikeouts line (e.g., 5.5):",
+            step=0.5,
+            value=5.5
+        )
+
+        # Calculate
+        so = pd.to_numeric(recent_games['actual_strikeouts'], errors='coerce').dropna()
+        over_count = (so > user_line).sum()
+        under_count = (so < user_line).sum()
+        push_count = (so == user_line).sum()
+        total_games = len(so)
+
+        prob_over = over_count / total_games * 100 if total_games else 0
+        prob_under = under_count / total_games * 100 if total_games else 0
+        prob_push = push_count / total_games * 100 if total_games else 0
+
+        if abs(prob_over - prob_under) < 5:
+            recommendation = "No clear edge (chance is about 50/50)."
+        elif prob_over > prob_under:
+            recommendation = f"Best probability: **Over** ({prob_over:.1f}%)"
+        else:
+            recommendation = f"Best probability: **Under** ({prob_under:.1f}%)"
+
+        st.subheader("Strikeout Projection & Probability (Larger Sample)")
+        st.markdown(f"""
+- Average strikeouts (*last {total_games} games*): **{so.mean():.2f}**
+- Your line: **{user_line}**
+- Over: **{over_count} times ({prob_over:.1f}%)**
+- Under: **{under_count} times ({prob_under:.1f}%)**
+- Push (exact): **{push_count} times ({prob_push:.1f}%)**
+""")
+        st.success(recommendation)
+
+        st.line_chart(pd.DataFrame({
+            'Strikeouts': so.values
+        }, index=recent_games['date'].dt.strftime('%Y-%m-%d')))
+
+        st.caption(
+            "Adjust the games slider to use a larger or smaller sample for your projections — "
+            "analyzing more games typically gives a more stable, trustworthy probability!"
+        )
+
+else:
+    st.info("Upload your data CSV to start.")
