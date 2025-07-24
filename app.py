@@ -14,7 +14,7 @@ def load_csv(uploaded_file):
         except UnicodeDecodeError:
             uploaded_file.seek(0)
             df = pd.read_csv(uploaded_file, encoding='cp1252')
-    # Drop index column if present
+    # Drop index column if present (like "Unnamed: 0")
     if df.columns[0].startswith('Unnamed') or df.columns[0] == '':
         df = df.iloc[:, 1:]
     return df
@@ -25,6 +25,7 @@ if uploaded_file is not None:
     st.write("Preview of your data:")
     st.write(df.head())
 
+    # Validate required columns
     required_cols = ['pitcher_name', 'actual_strikeouts', 'date']
     missing = [col for col in required_cols if col not in df.columns]
     if missing:
@@ -33,7 +34,7 @@ if uploaded_file is not None:
         pitcher = st.selectbox("Select Pitcher", sorted(df['pitcher_name'].unique()))
         pitcher_data = df[df['pitcher_name'] == pitcher].copy()
 
-        # Sort by date if possible
+        # Try to parse and sort dates for proper order
         pitcher_data['date'] = pd.to_datetime(pitcher_data['date'], errors='coerce')
         pitcher_data = pitcher_data.sort_values('date')
 
@@ -43,37 +44,37 @@ if uploaded_file is not None:
         num_games = st.slider("Number of recent games to analyze", 1, len(pitcher_data), max_games)
         recent_games = pitcher_data.tail(num_games)
 
-        # Get user's custom over/under line
-        over_under = st.number_input("Enter your Over/Under projection line (e.g., 5.5):", step=0.5)
+        # Custom over/under input
+        over_under = st.number_input(
+            "Enter your Over/Under projection line (e.g., 5.5):",
+            step=0.5
+        )
 
-        # Tally over & under counts
         so_vals = pd.to_numeric(recent_games['actual_strikeouts'], errors='coerce')
+        # Compute results
         over_count = (so_vals > over_under).sum()
         under_count = (so_vals < over_under).sum()
         push_count = (so_vals == over_under).sum()
-        pct_over = 100 * over_count / len(so_vals)
-        pct_under = 100 * under_count / len(so_vals)
-        pct_push = 100 * push_count / len(so_vals)
+        pct_over = 100 * over_count / len(so_vals) if len(so_vals) else 0
+        pct_under = 100 * under_count / len(so_vals) if len(so_vals) else 0
+        pct_push = 100 * push_count / len(so_vals) if len(so_vals) else 0
 
         st.subheader("Custom Over/Under Analysis")
         st.write(f"Projections use last {num_games} games for {pitcher}.")
-
-        summary = {
-            "Times Over": f"{over_count}  ({pct_over:.1f}%)",
-            "Times Under": f"{under_count}  ({pct_under:.1f}%)",
-            "Times Equal (Push)": f"{push_count}  ({pct_push:.1f}%)",
-            "Average strikeouts": f"{so_vals.mean():.2f}",
-            "Your selected line": over_under,
-        }
-        st.table(summary)
+        st.table({
+            "Stat": ["Times Over", "Times Under", "Exact Match (Push)", "Average Strikeouts", "Your Line"],
+            "Value": [
+                f"{over_count}  ({pct_over:.1f}%)",
+                f"{under_count}  ({pct_under:.1f}%)",
+                f"{push_count}  ({pct_push:.1f}%)",
+                f"{so_vals.mean():.2f}",
+                over_under
+            ]
+        })
 
         st.line_chart(recent_games.set_index('date')['actual_strikeouts'])
 
-        st.caption("Change the number above to instantly update your over/under results for recent games.")
-
-else:
-    st.info("Upload your CSV to begin.")
-
+        st.caption("Change the number above to instantly update your over/under results.")
 
 else:
     st.info("Upload your CSV to begin.")
