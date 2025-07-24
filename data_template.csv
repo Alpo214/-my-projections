@@ -1,0 +1,449 @@
+date,pitcher_name,team,opponent,prizepicks_line,actual_strikeouts,Over/Under Result,"season_k9
+",last_10_k9,"vs_opponent_k9
+",home_away_k9,opponent K%,opponent wRC+ vs LHP,venue,ballpark K Factor,temperature,Wind Speed,umpire Name,Umpire K Zone,Vegas Line,Public Bet %,Notes
+6/15/2025,Jack Leiter,TEX,HOU,4.5,4,Under,7.3,7.1,8.2,7.6,22.30%,106,Globe Life,1.01,78°F,7 mph,Marvin Hudson,0.70%,-120,54%,"4-3, 3.88 ERA, 1.24 WHIP, fastball avg 97 mph, more effective vs RHH 1"
+6/15/2025,Brayan Bello,BOS,ATL,4,3,Under,7.1,6.8,7,7.2,23.50%,98,Fenway Park,0.97,74°F,9 mph,Chris Conroy,-0.40%,105,48%,"2-0, 2.33 ERA, 1.41 WHIP, mid-90s FB, plus changeup, walks up in 2025 2"
+6/15/2025,Paul Skenes,PIT,PHI,6,9,Over,11.3,10.9,11.1,11,29.10%,102,Citizens Bank,1.03,76°F,6 mph,Adrian Johnson,1.10%,-135,62%,"1.88 ERA, 0.84 WHIP, 98 mph FB, elite whiff rate, Steamer RoS: 11.3 K/9 3"
+6/15/2025,Zach Eflin,BAL,WSH,4.5,4,Under,6.1,5.9,6.3,6,16.90%,92,Camden Yards,0.95,80°F,10 mph,Adam Beck,-0.30%,110,46%,"6-2, 4.08 ERA, 1.09 WHIP, leans on FB/sinker, groundballer, 8.9% barrel 2"
+6/15/2025,Nick Pivetta,BOS,SEA,6,7,Over,10.1,10.5,10,9.8,26.90%,104,Fenway Park,0.97,74°F,9 mph,Dan Bellino,0.20%,-115,58%,"5-2, 2.86 ERA, 0.99 WHIP, high strikeout upside, 28.6% K% vs both sides 2"
+6/15/2025,Zac Gallen,AZ,COL,6.5,5,Under,8.6,8.1,8.4,8.2,25.10%,91,Chase Field,1.04,81°F,5 mph,Chad Fairchild,-0.60%,120,41%,"3-5, 5.14 ERA, 1.38 WHIP, career 26.6% K%, needs better zone command 2"
+6/15/2025,Germán Márquez,COL,AZ,3,1,Under,5.7,5.2,5.5,5.3,13.90%,88,Coors Field,0.91,77°F,8 mph,Mike Muchlinski,-0.70%,140,36%,"2-8, 7.00 ERA, 1.68 WHIP, struggles with hard contact, 11.7% K% as SP 2"
+6/15/2025,Mick Abel,PHI,PIT,4.5,9,Over,8.2,8.6,8,8.4,21.10%,99,Citizens Bank,1.03,76°F,6 mph,John Tumpane,0.40%,-105,50%,"1-0, 2.35 ERA, 1.11 WHIP, prospect, high K/BB, FB/slider, 9 Ks in debut 2"
+6/15/2025,Michael Soroka,WSH,BAL,4.5,8,Over,7.8,7.9,7.7,8,18.20%,94,Camden Yards,0.95,80°F,10 mph,Adam Beck,-0.30%,110,46%,"0-2, 6.43 ERA, 1.29 WHIP, sinkerballer, plus command, better as reliever 2"
+6/15/2025,Shane Baz,TB,MIA,5.5,2,Under,8.9,8.7,8.5,8.8,24.20%,101,LoanDepot Park,1,79°F,7 mph,Jordan Baker,0.10%,-110,52%,"1-3, 4.76 ERA, 1.31 WHIP, high upside but inconsistent 2"
+6/15/2025,Luis L. Ortiz,CLE,CIN,5.5,7,Over,7.4,7.9,7.2,7.6,21.50%,97,Great American,1.07,82°F,11 mph,Nick Lentz,-0.20%,100,49%,"2-1, 3.98 ERA, 1.22 WHIP, developing slider, improved control "
+6/15/2025,Jack Leiter,TEX,HOU,4.5,4,Under,11.312,10.02,9.8,10.2,22.3%1,106,Globe Life,1.01,78°F,7 mph,J. Porter,0.70%,-120,54%,"4-3, 3.88 ERA, 1.24 WHIP, fastball avg 97 mph, more effective vs RHH12"
+6/15/2025,Jack Leiter,TEX,HOU,4.5,4,Under,11.3,10,9.8,10.2,22.30%,106,Globe Life,1.01,78°F,7 mph,Marvin Hudson,0.70%,-120,54%,"4-3, 3.88 ERA, 1.24 WHIP, fastball avg 97 mph, more effective vs RHH 12"
+6/15/2025,Brayan Bello,BOS,ATL,4,3,Under,6.8,6.5,7,7.2,23.50%,98,Fenway Park,0.97,74°F,9 mph,Chris Conroy,-0.40%,105,48%,"3-1, 3.49 ERA, 1.47 WHIP, mid-90s FB, plus changeup, walks up in 2025 34"
+6/15/2025,Paul Skenes,PIT,PHI,6,9,Over,10.7,11.1,11,10.9,29.10%,102,Citizens Bank,1.03,76°F,6 mph,Adrian Johnson,1.10%,-135,62%,"1.89 ERA, 0.95 WHIP, 98 mph FB, elite whiff rate, Statcast leader 4"
+6/15/2025,Zach Eflin,BAL,WSH,4.5,4,Under,6.1,5.9,6.3,6,16.90%,92,Camden Yards,0.95,80°F,10 mph,Adam Beck,-0.30%,110,46%,"6-2, 4.08 ERA, 1.17 WHIP, leans on FB/sinker, groundballer, 8.9% barrel 5"
+6/15/2025,Nick Martinez,CIN,PIT,4.5,3,Under,6.3,6,6.5,6.1,17.50%,99,PNC Park,0.98,77°F,8 mph,Mike Estabrook,0.20%,100,47%,"4-6, 3.70 ERA, 1.17 WHIP, avg exit velo 88.4, 7.6% barrel, 34.5% hard hit 6"
+6/15/2025,Jameson Taillon,CHC,MIA,5,2,Under,7.1,7.08,7,7.2,20.00%,101,LoanDepot Park,1,79°F,7 mph,John Tumpane,0.10%,-110,52%,"4-3, 3.86 ERA, 1.02 WHIP, 51 K in 11 starts, 0.98 WHIP 6"
+6/15/2025,Ryan Weathers,MIA,CHC,4.5,4,Under,8.4,8.2,8,8.3,22.50%,97,Wrigley Field,1.04,81°F,5 mph,Chad Fairchild,-0.60%,120,41%,"1-1, 3.28 ERA, 1.05 WHIP, 23 K in 24.2 IP, 22.5% K% 6"
+6/15/2025,Mitchell Parker,WSH,ATL,4.5,4,Under,6.05,6,6.2,6.1,15.60%,94,Nationals Park,1,79°F,7 mph,Jordan Baker,0.10%,-110,52%,"4-7, 4.84 ERA, 1.35 WHIP, 50 K in 74.1 IP, 9.7% BB% 6"
+6/15/2025,Ryne Nelson,AZ,LAD,3.5,2,Under,9.5712,7.521,7.8,8.1,18.6%1,112,Dodger Stadium,1.01,76°F,7 mph,A. Johnson,0.50%,115,46%,"3-2, 4.14 ERA, 1.14 WHIP, 41 K in 50 IP, recent role: swingman12"
+6/15/2025,Yoshinobu Yamamoto,LAD,AZ,5.5,9,Over,10.334,9.63,10.9,10.5,20.0%3,104,Dodger Stadium,1.01,76°F,7 mph,A. Johnson,0.50%,-120,54%,"6-5, 2.64 ERA, 1.09 WHIP, 90 K in 78.1 IP, elite splitter34"
+6/15/2025,Kyle Hendricks,LAA,ATH,3,3,Push,5.656,5.45,5.7,5.5,13.9%5,91,Oakland Coliseum,1.02,73°F,10 mph,C. Conroy,-0.20%,110,49%,"4-6, 5.20 ERA, 1.32 WHIP, 44 K in 71 IP, heavy changeup usage56"
+6/15/2025,Gunnar Hoglund,OAK,LAA,5,5,Push,6.47,6.17,6,6.3,19.0%7,98,Oakland Coliseum,1.02,73°F,10 mph,C. Conroy,-0.20%,110,49%,"1-3, 6.40 ERA, 1.52 WHIP, 23 K in 32.1 IP, rookie, hip injury7"
+6/15/2025,Michael Lorenzen,SF,KC,4,5,Over,7.78,7.58,7.2,8,20.4%8,99,Oracle Park,0.96,66°F,8 mph,D. Eddings,0.10%,-105,52%,"4-6, 3.70 ERA, 1.17 WHIP, 61 K in 71 IP, better on road8"
+6/15/2025,Hayden Birdsong,SF,KC,4,5,Over,9.509,9.19,9,9.3,24.5%9,97,Oracle Park,0.96,66°F,8 mph,D. Eddings,0.10%,-105,52%,"3-1, 2.79 ERA, 1.28 WHIP, 51 K in 48.1 IP, high whiff rookie9"
+6/15/2025,Andre Pallante,STL,DET,4,3,Under,5.9,5.8,6.2,5.7,23.30%,91,Busch Stadium,1,84°F,12mph,Charlie Ramos,-0.50%,-110,51%,"4-3, 4.75 ERA, 1.38 WHIP, 15.1% K%, 7.7% BB%, 7.9% barrel rate 1"
+6/15/2025,Cade Horton,CHC,MIA,5,3,Under,7.3,7.1,7.4,7.2,22.20%,98,Wrigley Field,1.03,78°F,10mph,John Tumpane,0.20%,-115,53%,"2-1, 3.66 ERA, 1.24 WHIP, 36% GB%, 7.34 K/9, projected 4.7 Ks, 79 pitches 23"
+6/15/2025,Max Meyer,MIA,CHC,5.5,4,Under,8.8,8.2,8.4,8.6,24.70%,101,Wrigley Field,1.03,78°F,10mph,John Tumpane,0.20%,-105,48%,"3-5, 4.73 ERA, 1.42 WHIP, 68 K in 69 IP, 4.41 FIP, 14 K game high 23"
+6/15/2025,Chad Patrick,MIL,BAL,4.5,7,Over,8.6,8.9,8.2,8.4,21.80%,99,Camden Yards,0.98,80°F,8mph,Chris Conroy,-0.30%,120,45%,"3-6, 3.25 ERA, 1.26 WHIP, 22.6% K%, 7.6% BB%, 6.5% barrel rate 4"
+6/15/2025,Chris Paddack Jr.,MIN,CLE,4,2,Under,7.4,7,7.2,7.1,20.90%,97,Target Field,1.01,75°F,7mph,Jim Wolf,0.10%,-110,47%,"2-4, 4.12 ERA, 1.18 WHIP, last 10 avg 4.6 Ks, 16.2 outs avg, 1.4 ER avg 5"
+6/15/2025,Gavin Williams,CLE,MIN,5.5,6,Over,9.3,9,9.2,9.1,23.80%,103,Target Field,1.01,75°F,7mph,Jim Wolf,0.10%,-120,55%,"5-3, 3.89 ERA, 1.47 WHIP, 23.8% K%, 12.9% BB%, 9.9% barrel rate 5"
+6/15/2025,Germán Márquez,COL,PHI,5,3,Under,4.861,5.261,5.491,3.12 (Home)1,22.3%1,1062,Citizens Bank Park,1.033,79°F3,10 mph3,Hanahan2,+0.2%3,1103,46%3,"2-8, 6.62 ERA, 1.66 WHIP, K% down, struggles vs RHH, post-surgery14"
+6/15/2025,Tyler Anderson,LAA,ATH,4,4,Push,5.95,6.05,5.85,6.1 (Away)5,19.8%5,993,Angel Stadium,1.013,77°F3,7 mph3,Not listed,N/A,-1153,48%3,"2-1, 2.58 ERA, 1.06 WHIP, low K upside, soft contact profile56"
+6/15/2025,Ranger Suárez,PHI,COL,5.5,6,Over,9.87,10.17,9.57,10.2 (Home)7,23.5%7,982,Citizens Bank Park,1.033,79°F3,10 mph3,Hanahan2,+0.2%3,-1203,54%3,"5-1, 2.32 ERA, 1.07 WHIP, breakout K%, elite GB%, improved command78"
+6/15/2025,Luis Severino,ATH,LAA,5,5,Push,6.19,6.29,6.09,6.4 (Away)9,20.0%9,1013,Angel Stadium,1.013,77°F3,7 mph3,Not listed,N/A,1053,52%3,"2-6, 4.47 ERA, 1.30 WHIP, K% down, hard hit %, injury history910"
+6/15/2025,Germán Márquez,COL,PHI,5,3,Under,4.861,5.261,5.491,3.12 (Home)1,22.3%1,1062,Citizens Bank Park,1.033,79°F3,10 mph3,Hanahan2,+0.2%3,1103,46%3,"2-8, 6.62 ERA, 1.66 WHIP, K% down, struggles vs RHH, post-surgery14"
+6/15/2025,Tyler Anderson,LAA,ATH,4,4,Push,5.95,6.05,5.85,6.1 (Away)5,19.8%5,993,Angel Stadium,1.013,77°F3,7 mph3,Not listed,N/A,-1153,48%3,"2-1, 2.58 ERA, 1.06 WHIP, low K upside, soft contact profile56"
+6/15/2025,Ranger Suárez,PHI,COL,5.5,6,Over,9.87,10.17,9.57,10.2 (Home)7,23.5%7,982,Citizens Bank Park,1.033,79°F3,10 mph3,Hanahan2,+0.2%3,-1203,54%3,"5-1, 2.32 ERA, 1.07 WHIP, breakout K%, elite GB%, improved command78"
+6/15/2025,Luis Severino,ATH,LAA,5,5,Push,6.19,6.29,6.09,6.4 (Away)9,20.0%9,1013,Angel Stadium,1.013,77°F3,7 mph3,Not listed,N/A,1053,52%3,"2-6, 4.47 ERA, 1.30 WHIP, K% down, hard hit %, injury history910"
+6/15/2025,Tylor Megill,NYM,BOS,6,10,Over,12.07,10.5,9.8,11.2,25.50%,104,Fenway Park,0.97,64°F,3 mph,Chris Conroy,0.10%,-115,52%,"4-4, 3.52 ERA, 1.36 WHIP, 30.4% K%, trending up, high whiff rate12"
+6/15/2025,Ryan Yarbrough,NYY,TEX,3,8,Over,7.2,7.6,7,7.4,22.30%,101,Yankee Stadium,1.01,67°F,8 mph,Torres,-0.20%,-105,48%,"1-0, 3.70 ERA, 1.24 WHIP, 22.3% K%, effective vs LHH, soft contact3"
+6/15/2025,Kevin Gausman,TOR,SD,4.5,9,Over,7.1,7.8,8.2,7.5,24.70%,98,Rogers Centre,0.98,72°F,5 mph,Not listed,N/A,-120,54%,"2-1, 2.49 ERA, 0.95 WHIP, high splitter usage, elite command, 20 SO in 25.1 IP4"
+6/15/2025,Taijuan Walker,PHI,COL,3.5,2,Under,7.9,7.2,7.5,7.7,23.30%,106,Citizens Bank Park,1.03,78°F,9 mph,Hanahan,0.20%,110,46%,"2-5, 3.69 ERA, 1.36 WHIP, 41 SO in 46.1 IP, struggles with walks lately56"
+6/15/2025,Carson Palmquist,COL,PHI,3.5,2,Under,8.7,8.9,8.4,8.5,21.80%,99,Citizens Bank Park,1.03,78°F,9 mph,Hanahan,0.20%,-110,47%,"0-1, 11.25 ERA, 4 IP, prospect, high K upside, 13.2% barrel rate78"
+6/15/2025,Jack Kochanowicz,LAA,ATH,3,6,Over,6.42,6.2,6.5,6.1,15.90%,91,Angel Stadium,1.01,77°F,7 mph,Not listed,N/A,105,49%,"3-7, 5.61 ERA, 1.45 WHIP, 33 SO in 46.1 IP, developing secondary pitches"
+6/15/2025,Brady Singer,CIN,PIT,5,3,Under,7.2,7,7.4,7.1,23.10%,98,PNC Park,1.01,65°F,10mph,Mike Estabrook,0.10%,-120,49%,"7-4, 4.34 ERA, 1.34 WHIP, 60 K in 74.2 IP, better vs RHH, high GB%12"
+6/15/2025,Andrew Heaney,PIT,CIN,4.5,4,Under,8.9,8.7,8.5,8.8,24.70%,101,PNC Park,1.01,65°F,10mph,Mike Estabrook,0.10%,-110,51%,"2-3, 3.18 ERA, 1.11 WHIP, 34 K in 39.1 IP, high K% vs LHH, solid command12"
+6/15/2025,Chris Paddack Jr.,MIN,CLE,4,2,Under,7.4,7,7.2,7.1,20.90%,97,Target Field,1.01,75°F,7mph,Jim Wolf,0.10%,-110,47%,"2-3, 4.05 ERA, 1.18 WHIP, 33 K in 44.1 IP, limits BB, health risk2"
+6/15/2025,Gavin Williams,CLE,MIN,5.5,6,Over,9.3,9,9.2,9.1,23.80%,103,Target Field,1.01,75°F,7mph,Jim Wolf,0.10%,-120,55%,"5-3, 3.89 ERA, 1.47 WHIP, 72 K in 69.1 IP, 9.9% barrel rate, high BB%2"
+6/15/2025,Hunter Brown,HOU,TB,7,4,Under,9.1,8.8,9,9.2,24.40%,98,Minute Maid Park,1.02,78°F,8mph,Jordan Baker,0.20%,-115,53%,"6-2, 1.43 ERA, 0.83 WHIP, 67 K in 56.2 IP, sinker focus, breakout year2"
+6/15/2025,Taj Bradley,TB,HOU,5,7,Over,8.7,8.4,8.6,8.5,23.20%,100,Tropicana Field,1,80°F,6mph,Alex Tosi,0.10%,-110,52%,"3-2, 4.24 ERA, 1.26 WHIP, 35 K in 36.1 IP, high whiff, volatile late 2024"
+6/15/2025,Tanner Bibee,CLE,DET,5,8,Over,8.2,8.6,8.1,8.3,22.10%,94,Progressive Field,1.01,74°F,8mph,Phil Cuzzi,0.10%,-115,53%,"4-6, 3.81 ERA, 1.20 WHIP, 65 K in 69 IP, trending up in June 1"
+6/15/2025,Jack Flaherty,DET,CLE,5,8,Over,9.6,9.2,9.1,9.5,24.90%,93,Progressive Field,1.01,74°F,8mph,Phil Cuzzi,0.10%,-110,51%,"2-5, 4.44 ERA, 1.22 WHIP, 56 K in 52.2 IP, slider whiff rate up 1"
+6/15/2025,Trevor Williams,WSH,ATL,4,3,Under,6.8,6.5,6.9,6.7,21.70%,105,Nationals Park,1.02,78°F,7mph,Ramon De Jesus,-0.20%,105,47%,"3-8, 5.71 ERA, 1.43 WHIP, 52 K in 69.1 IP, hard hit % up 2"
+6/15/2025,AJ Smith-Shawver,ATL,WSH,5,1,Under,9.3,9,9.1,9.2,23.40%,98,Nationals Park,1.02,78°F,7mph,Ramon De Jesus,-0.20%,-110,50%,"3-2, 2.33 ERA, 1.24 WHIP, 40 K in 38.2 IP, high BB rate, recent injury 2"
+6/15/2025,George Kirby,SEA,HOU,4,4,Push,10.5,10.8,10.2,10.3,22.20%,101,Minute Maid Park,1,80°F,6mph,Sean Barber,0.10%,-120,55%,"1-3, 5.96 ERA, 1.36 WHIP, 30 K in 25.2 IP, 14 K game high in June 2"
+6/15/2025,Lance McCullers Jr.,HOU,SEA,4.5,7,Over,12,11.5,12.3,11.8,24.50%,97,Minute Maid Park,1,80°F,6mph,Sean Barber,0.10%,-110,52%,"1-2, 4.91 ERA, 1.33 WHIP, 39 K in 29.3 IP, elite curveball whiff rate 2"
+6/15/2025,Germán Márquez,COL,PHI,5,3,Under,4.86,5.26,5.49,3.12 (Home),22.30%,106,Citizens Bank Park,1.03,79°F,10mph,Tom Hanahan,0.20%,110,46%,"2-8, 6.62 ERA, 1.66 WHIP, K% down, struggles vs RHH, post-surgery 1"
+6/15/2025,Ranger Suárez,PHI,COL,5.5,6,Over,9.8,10.1,9.5,10.2 (Home),23.50%,98,Citizens Bank Park,1.03,79°F,10mph,Tom Hanahan,0.20%,-120,54%,"5-1, 2.32 ERA, 1.07 WHIP, breakout K%, elite GB%, improved command 1"
+6/15/2025,Tyler Anderson,LAA,ATH,4,4,Push,5.9,6,5.8,6.1 (Away),19.80%,99,Angel Stadium,1.01,77°F,7mph,Not confirmed,N/A,-115,48%,"2-1, 2.58 ERA, 1.06 WHIP, low K upside, soft contact profile 23"
+6/15/2025,Luis Severino,ATH,LAA,5,5,Push,6.1,6.2,6,6.4 (Away),20.00%,101,Angel Stadium,1.01,77°F,7mph,Not confirmed,N/A,105,52%,"2-6, 4.47 ERA, 1.30 WHIP, K% down, hard hit %, injury history 23"
+6/15/2025,Mike Burrows,PIT,MIL,3.5,3,Under,7.9,8.1,8,7.8,21.10%,99,American Family Fld,1.04,65°F,10mph,Charlie Ramos,0.10%,-110,51%,"1-1, 4.24 ERA, 1.29 WHIP, recent return from TJS, swingman role 45"
+6/15/2025,Germán Márquez,COL,PHI,5,3,Under,4.861,5.262,5.492,3.12 (Home),22.3%3,1063,Citizens Bank Park,1.034,79°F4,10 mph4,Hanahan3,+0.2%4,1103,46%3,"2-8, 6.62 ERA, 1.66 WHIP, K% down, struggles vs RHH, post-surgery123"
+6/15/2025,Ranger Suárez,PHI,COL,5.5,6,Over,9.85,10.15,9.55,10.2 (Home),23.5%3,983,Citizens Bank Park,1.034,79°F4,10 mph4,Hanahan3,+0.2%4,-1203,54%3,"5-1, 2.32 ERA, 1.07 WHIP, breakout K%, elite GB%, improved command543"
+6/15/2025,Tyler Anderson,LAA,ATH,4,4,Push,5.96,6.06,5.86,6.1 (Away),19.8%7,997,Angel Stadium,1.014,77°F4,7 mph4,Not listed,N/A,-1157,48%,"2-1, 2.58 ERA, 1.06 WHIP, low K upside, soft contact profile674"
+6/15/2025,Luis Severino,ATH,LAA,5,5,Push,6.18,6.29,6.09,6.4 (Away)9,20.0%9,1019,Angel Stadium,1.014,77°F4,7 mph4,Not listed,N/A,1059,52%,"2-6, 4.47 ERA, 1.30 WHIP, K% down, hard hit %, injury history894"
+6/15/2025,Mike Burrows,PIT,MIL,3.5,3,Under,7.91,8.11,8.01,7.81,21.1%10,9910,American Family Fld,1.044,65°F4,10 mph4,Morales,+0.1%4,-1104,51%,"1-1, 4.24 ERA, 1.29 WHIP, recent return from TJS, swingman role"
+6/15/2025,Mike Burrows,PIT,MIL,3.5,3,Under,7.83,8.1,8,7.8,21.10%,99,American Family Fld,1.04,65°F,10mph,Charlie Ramos,0.10%,-110,51%,"1-1, 4.24 ERA, 1.29 WHIP, recent return from TJS, swingman role 12"
+6/15/2025,Tanner Bibee,CLE,DET,5,8,Over,7.37,8.6,8.1,8.3,21.70%,94,Progressive Field,1.01,74°F,8mph,Phil Cuzzi,0.10%,-115,53%,"4-6, 3.81 ERA, 1.20 WHIP, 65 K in 75.2 IP, trending up in June 3"
+6/15/2025,Jack Flaherty,DET,CLE,5,8,Over,10.72,9.2,9.1,9.5,18.00%,98,Progressive Field,1.01,74°F,8mph,Phil Cuzzi,0.10%,-110,51%,"5-6, 3.41 ERA, 1.07 WHIP, 85 K in 71.1 IP, 29.7% K%, slider whiff up 3"
+6/15/2025,Trevor Williams,WSH,ATL,4,3,Under,6.75,6.5,6.9,6.7,21.70%,105,Nationals Park,1.02,78°F,7mph,Ramon De Jesus,-0.20%,105,47%,"3-8, 5.71 ERA, 1.43 WHIP, 52 K in 69.1 IP, hard hit % up 4"
+6/15/2025,AJ Smith-Shawver,ATL,WSH,5,1,Under,8.52,9,9.1,9.2,23.40%,98,Nationals Park,1.02,78°F,7mph,Ramon De Jesus,-0.20%,-110,50%,"3-2, 3.86 ERA, 1.42 WHIP, 42 K in 44.1 IP, high BB rate, recent injury 4"
+6/15/2025,George Kirby,SEA,HOU,4,4,Push,10.52,10.8,10.2,10.3,20.40%,101,Minute Maid Park,1,80°F,6mph,Sean Barber,0.10%,-120,55%,"1-3, 5.96 ERA, 1.36 WHIP, 30 K in 25.2 IP, recent 14 K game "
+6/15/2025,Mike Burrows,PIT,MIL,3.5,3,Under,7.831,8.1,8,7.8,21.1%2,992,American Family Fld,1.04,65°F,10 mph,Morales,0.10%,-110,51%,"1-1, 4.24 ERA, 1.29 WHIP, recent return from TJS, swingman role1"
+6/15/2025,Tanner Bibee,CLE,DET,5,8,Over,8.2,8.6,8.1,8.3,22.10%,94,Progressive Field,1.01,74°F,8mph,Phil Cuzzi,0.10%,-115,53%,"4-6, 3.81 ERA, 1.20 WHIP, 65 K in 69 IP, trending up in June 1"
+6/15/2025,Jack Flaherty,DET,CLE,5,8,Over,9.6,9.2,9.1,9.5,24.90%,93,Progressive Field,1.01,74°F,8mph,Phil Cuzzi,0.10%,-110,51%,"2-5, 4.44 ERA, 1.22 WHIP, 56 K in 52.2 IP, slider whiff rate up 1"
+6/15/2025,Trevor Williams,WSH,ATL,4,3,Under,6.8,6.5,6.9,6.7,21.70%,105,Nationals Park,1.02,78°F,7mph,Ramon De Jesus,-0.20%,105,47%,"3-8, 5.71 ERA, 1.43 WHIP, 52 K in 69.1 IP, hard hit % up 2"
+6/15/2025,AJ Smith-Shawver,ATL,WSH,5,1,Under,9.3,9,9.1,9.2,23.40%,98,Nationals Park,1.02,78°F,7mph,Ramon De Jesus,-0.20%,-110,50%,"3-2, 3.86 ERA, 1.42 WHIP, 42 K in 44.1 IP, high BB rate, recent injury 2"
+6/15/2025,George Kirby,SEA,HOU,4,4,Push,10.5,10.8,10.2,10.3,22.20%,101,Minute Maid Park,1,80°F,6mph,Sean Barber,0.10%,-120,55%,"1-3, 5.96 ERA, 1.36 WHIP, 30 K in 25.2 IP, recent 14 K game"
+5/23/2025,Nick Pivetta,SD,ATL,5,7,Over,10,9.8,8.9,10.2,21.20%,103,Truist Park,1.01,83°F,6mph,Carlos Torres,0.20%,-120,54%,"7-2, 3.40 ERA, 1.05 WHIP, 88 K in 79.1 IP, high fastball usage, trending up 12"
+5/23/2025,Chris Sale,ATL,SD,6.5,6,Under,11.9,11.3,12.2,10.7,22.50%,98,Petco Park,0.98,69°F,7mph,Gabe Morales,0.10%,-115,49%,"4-4, 2.79 ERA, 1.21 WHIP, 107 K in 80.2 IP, elite slider, high CSW% 13"
+5/23/2025,Tyler Mahle,TEX,CWS,4.5,2,Under,9.6,8.7,8.4,9.1,22.40%,94,Guaranteed Rate Fld,1.02,77°F,9mph,Edwin Moscoso,0.10%,100,48%,"3-0, 0.92 ERA, 1.02 WHIP, 21 K in 19.2 IP, strong home splits, recent return from injury 1"
+5/23/2025,Sean Burke,CWS,TEX,4,6,Over,6.9,7.2,7.1,7,23.30%,99,Globe Life Field,1.03,81°F,8mph,Marvin Hudson,0.10%,-110,51%,"3-7, 4.71 ERA, 1.44 WHIP, 54 K in 70.2 IP, high BB%, trending up in June 4"
+5/24/2025,Zach Eflin,BAL,BOS,4.5,1,Under,7.2,6.8,7,7.1,19.50%,101,Fenway Park,0.97,68°F,8mph,Gabe Morales,0.10%,-115,51%,"6-2, 4.08 ERA, 1.09 WHIP, 36 K in 53 IP, heavy sinker usage, K% down in 2025 12"
+5/24/2025,Hunter Dobbins,BOS,BAL,2.5,7,Over,8.1,8.4,8.2,8,18.40%,99,Fenway Park,0.97,68°F,8mph,Gabe Morales,0.10%,-110,49%,"2-1, 3.90 ERA, 1.24 WHIP, 55.1 IP, 32 K, 4.8% BB%, 6.9% barrel rate 12"
+5/24/2025,Michael Wacha,KC,MIN,4.5,1,Under,6.6,6.2,6.8,6.5,20.20%,98,Target Field,1.01,70°F,6mph,Pat Hoberg,0.10%,105,47%,"0-2, 4.20 ERA, 1.38 WHIP, 11 K in 15 IP, 8 BB, trending down 3"
+5/24/2025,Zebby Matthews,MIN,KC,3.5,9,Over,11.8,12.1,11.5,11.7,30.10%,101,Target Field,1.01,70°F,6mph,Pat Hoberg,0.10%,-120,54%,"1-1, 5.21 ERA, 1.47 WHIP, 25 K in 19 IP, 9.6% BB%, 30.1% K% 3"
+5/24/2025,Matthew Liberatore,STL,AZ,4,4,Push,8.1,8.3,8,8.2,22.40%,97,Busch Stadium,1,76°F,7mph,Edwin Moscoso,0.10%,-110,48%,"1-1, 3.93 ERA, 1.29 WHIP, 18 K in 18.1 IP, 2.2 BB/9, trending up 4"
+5/24/2025,Merrill Kelly,AZ,STL,4,6,Over,8.7,8.9,8.5,8.8,23.00%,99,Busch Stadium,1,76°F,7mph,Edwin Moscoso,0.10%,-115,53%,"5-2, 3.26 ERA, 1.09 WHIP, 52 K in 58 IP, 2.30 BB/9, 0.88 HR/9 4"
+5/24/2025,Max Fried,NYY,COL,5.5,9,Over,8.5,8.7,8.9,8.4,22.00%,97,Yankee Stadium,1.01,70°F,6mph,Andy Fletcher,0.10%,-120,54%,"1.90 ERA, 1.01 WHIP, 90 K in 95 IP, elite command, trending up 1"
+5/24/2025,Grant Holmes,ATL,SD,3.5,6,Over,9,10.2,8.7,9.1,24.50%,99,Truist Park,1.03,78°F,7mph,Dan Iassogna,0.20%,-110,51%,"3.99 ERA, 1.20 WHIP, 68 K in 67.2 IP, 43% K% last 4 starts, slider/curveball whiff rates elite 2"
+5/24/2025,Andrew Abbott,CIN,CHC,4.5,5,Over,9.4,8.8,9.1,9,26.80%,95,Great American BP,1.04,75°F,10mph,Todd Tichenor,-0.50%,-115,48%,"3.88 ERA, 1.24 WHIP, 26.8% K%, tough umpire, platoon disadvantage 3"
+5/24/2025,Colin Rea,CHC,CIN,4,4,Push,7.4,7.1,7,7.2,21.70%,98,Wrigley Field,1.02,68°F,8mph,Dan Bellino,0.10%,105,47%,"3-0, 2.48 ERA, 1.31 WHIP, 29 K in 36.1 IP, splits favor RHH, moderate K upside 3"
+5/24/2025,Framber Valdez,HOU,SEA,6,7,Over,8.8,8.5,8.6,8.7,24.00%,101,Minute Maid Park,1,77°F,7mph,Sean Barber,-0.30%,-125,55%,"3-4, 3.57 ERA, 1.13 WHIP, 59 K in 60 IP, 76th percentile K skill, groundball ace 4"
+5/24/2025,Bryan Woo,SEA,HOU,5.5,6,Over,9.1,9.3,9,9.2,23.50%,99,Minute Maid Park,1,77°F,7mph,Sean Barber,-0.30%,-110,52%,"2-1, 2.38 ERA, 0.98 WHIP, 6 K projection, 2222 rpm FB, extreme flyball pitcher 4"
+5/24/2025,Jake Irvin,WSH,SF,3.5,7,Over,6.191,5.621,7.01,5.621,22.1%2,922,Nationals Park,992,75°F2,3 mph SW2,Erich Bacchus3,Neutral,-1102,51%2,Home splits: 5.62 K/9
+5/24/2025,Kyle Harrison,SF,WSH,4,4,Push,9.162,8.72,8.02,9.02,19.5%2,902,Nationals Park,992,75°F2,3 mph SW2,Erich Bacchus3,Neutral,-1102,49%2,Recent trade to SF
+5/24/2025,Mitch Keller,PIT,MIL,4.5,7,Over,7.206,7.16,7.56,7.36,21.0%6,956,PNC Park,976,72°F6,4 mph NW6,—,—,-1086,48%6,"K% dropped, durable"
+5/24/2025,Quinn Priester,MIL,PIT,2.5,7,Over,6.003,6.43,6.83,6.33,21.0%3,933,American Family,983,74°F3,5 mph W3,—,—,1053,47%3,Starter K/9: 6.0
+5/24/2025,Jack Leiter,TEX,CWS,4.5,3,Under,9.004,7.84,7.24,7.54,22.0%4,914,Globe Life Field,984,72°F4,4 mph SW4,—,—,-1154,52%4,"Young arm, high upside"
+5/24/2025,Kyle Freeland,COL,NYY,3.5,3,Under,7.285,5.95,6.55,5.85,25.0%5,995,Yankee Stadium,995,67°F5,5 mph SSW5,—,—,1205,44%5,Struggles on road
+5/24/2025,Lucas Giolito,BOS,BAL,3.5,6,Over,8.7,9.1,8.3,8.5,22.60%,100,Fenway Park,98,69°F,7 mph SW,Chris Conroy,Neutral,-120,53%,Orioles K% below avg
+5/24/2025,Shane Baz,TB,TOR,4.5,4,Under,9.5,8.8,8.1,9.2,20.40%,97,Rogers Centre,101,70°F,5 mph W,Lance Barrett,Slightly Tight,-110,49%,Jays low K% vs RHP
+5/24/2025,José Berríos,TOR,TB,4.5,3,Under,8.2,7.9,7.7,8.4,22.10%,101,Rogers Centre,101,70°F,5 mph W,Lance Barrett,Slightly Tight,-110,48%,Rays higher K% vs RHP
+5/24/2025,Casey Mize,DET,CLE,4,6,Over,7.1,7.3,7.5,7,21.80%,94,Comerica Park,97,65°F,8 mph NE,Brian O'Nora,Neutral,105,46%,Guardians low K% vs RHP
+5/24/2025,Luis L. Ortiz,CLE,DET,3.5,3,Under,8,7.6,7.2,8.2,23.60%,88,Comerica Park,97,65°F,8 mph NE,Brian O'Nora,Neutral,-105,51%,Tigers high K% vs RHP
+5/24/2025,Tony Gonsolin,LAD,NYM,5,4,Under,8.8,8.2,8,8.5,21.50%,99,Citi Field,99,68°F,10 mph NW,Alan Porter,Slightly Wide,-115,54%,Mets avg K% vs RHP
+5/25/2025,Tarik Skubal,DET,CLE,8,13,Over,10.5,11.2,10.9,10.3,19.10%,95,Comerica Park,0.97,74°F,7 mph S,Brian O'Nora,Neutral,-130,57%,"Elite form, Guardians low K%"
+5/25/2025,Logan Allen,CLE,DET,4,2,Under,7.2,6.8,7.5,7,23.70%,90,Comerica Park,0.97,74°F,7 mph S,Brian O'Nora,Neutral,110,44%,Tigers high K% vs LHP
+5/25/2025,Robbie Ray,SF,WSH,6.5,1 (Live),Under (projected),9.8,8.9,9.2,10.1,20.50%,92,Oracle Park,0.94,66°F,10 mph W,Ryan Additon,Slightly Tight,-115,51%,First start off IL
+5/25/2025,Michael Soroka,WSH,SF,5,0 (Live),Under (projected),7,6.5,6.9,7.3,21.90%,93,Oracle Park,0.94,66°F,10 mph W,Ryan Additon,Slightly Tight,105,46%,Giants average K% vs RHP
+5/25/2025,Dean Kremer,BAL,BOS,5,0 (Live),Under (projected),8.1,7.6,8.3,8.5,21.20%,101,Fenway Park,0.97,68°F,8 mph SW,Chris Conroy,Neutral,-110,49%,Red Sox low K% vs RHP
+5/25/2025,Nick Pivetta,SD,ATL,5,7,Over,9.4,8.7,9.1,9.2,22.20%,98,Petco Park,0.98,70°F,6 mph SW,Mark Carlson,Neutral,-110,51%,Braves average K% vs RHP
+5/25/2025,Chris Sale,ATL,SD,6.5,6,Under,10.2,9.9,10.5,10,21.10%,102,Petco Park,0.98,70°F,6 mph SW,Mark Carlson,Neutral,-110,53%,Padres above avg K% vs LHP
+5/25/2025,Tyler Mahle,TEX,CWS,4.5,3,Under,8.5,8,8.2,8.7,23.90%,91,Globe Life Field,0.99,74°F,8 mph S,Phil Cuzzi,Slightly Wide,-115,47%,White Sox high K% vs RHP
+5/25/2025,Sean Burke,CWS,TEX,4,6,Over,8.1,8.4,8.9,7.8,22.00%,97,Globe Life Field,0.99,74°F,8 mph S,Phil Cuzzi,Slightly Wide,110,45%,Rangers average K% vs RHP
+5/25/2025,Taj Bradley,TB,HOU,5,7,Over,10.1,9.5,10.3,9.8,21.50%,99,Minute Maid Park,1.01,75°F,5 mph S,Alex Tosi,Neutral,-120,52%,Astros low K% vs RHP
+5/25/2025,Hunter Brown,HOU,TB,7,4,Under,9,8.3,8.7,9.2,23.80%,94,Minute Maid Park,1.01,75°F,5 mph S,Alex Tosi,Neutral,110,48%,Rays high K% vs RHP
+5/25/2025,Andrew Heaney,PIT,CIN,4.5,4,Under,8.7,8.1,8,8.8,22.40%,97,PNC Park,0.97,70°F,7 mph W,Adam Hamari,Slightly Tight,-110,49%,Reds average K% vs LHP
+5/25/2025,Brady Singer,CIN,PIT,5,3,Under,8,7.7,7.8,8.2,20.90%,99,PNC Park,0.97,70°F,7 mph W,Adam Hamari,Slightly Tight,110,46%,Pirates low K% vs RHP
+5/25/2025,Chris Paddack Jr.,MIN,CLE,4,2,Under,7.9,7.2,7.5,8,21.30%,98,Progressive Field,0.98,67°F,10 mph NW,Chad Whitson,Neutral,-105,44%,Guardians low K% vs RHP
+5/25/2025,Gavin Williams,CLE,MIN,5.5,6,Over,9.6,9,9.2,9.8,24.10%,92,Progressive Field,0.98,67°F,10 mph NW,Chad Whitson,Neutral,-115,55%,Twins high K% vs RHP
+5/25/2025,Germán Márquez,COL,PHI,3,5,Over,7,6.8,6.9,7.1,22.20%,97,Citizens Bank Park,1.01,72°F,7 mph SW,C.B. Bucknor,Neutral,120,45%,Phillies avg K% vs RHP
+5/25/2025,Luis Severino,ATH,LAA,5,5,Push,8.5,8.1,8.3,8.7,20.80%,99,Angel Stadium,0.99,74°F,5 mph SW,Bill Miller,Slightly Wide,-110,50%,Angels low K% vs RHP
+5/25/2025,Tyler Anderson,LAA,ATH,4,0,Under,7.2,6.9,7,7.4,22.50%,92,Angel Stadium,0.99,74°F,5 mph SW,Bill Miller,Slightly Wide,-110,48%,A's high K% vs LHP
+5/25/2025,Mike Burrows,PIT,MIL,3.5,3,Under,8.1,8,7.8,8.2,23.50%,94,American Family Fld,1.04,65°F,10 mph NW,Edwin Moscoso,Slightly Tight,-110,51%,Brewers above avg K% vs RHP
+5/25/2025,Tanner Bibee,CLE,DET,5,8,Over,8.6,8.1,8.3,8.5,25.00%,88,Comerica Park,0.97,74°F,7 mph S,Brian O'Nora,Neutral,-115,53%,Tigers high K% vs RHP
+5/25/2025,Ranger Suárez,PHI,COL,5.5,6,Over,9.2,9,9.1,9.3,22.70%,91,Citizens Bank Park,1.01,72°F,7 mph SW,C.B. Bucknor,Neutral,-120,56%,Rockies avg K% vs LHP
+5/25/2025,Bailey Falter,PIT,MIL,3.5,1,Under,7.4,7.1,7.3,7.6,23.50%,94,American Family Fld,1.04,65°F,10 mph NW,Edwin Moscoso,Slightly Tight,-110,51%,Brewers above avg K% vs LHP
+5/25/2025,Logan Henderson,MIL,PIT,5,6,Over,8.2,8.5,8,8.3,22.10%,92,American Family Fld,1.04,65°F,10 mph NW,Edwin Moscoso,Slightly Tight,105,48%,Pirates avg K% vs RHP
+5/25/2025,Nick Lodolo,CIN,CHC,3.5,6,Over,9,8.7,8.8,9.1,24.00%,90,Wrigley Field,1.02,68°F,8 mph SW,Pat Hoberg,Wide,-120,55%,Cubs high K% vs LHP
+5/25/2025,Ben Brown,CHC,CIN,6,4,Under,8.8,8.2,8.1,8.6,22.50%,93,Wrigley Field,1.02,68°F,8 mph SW,Pat Hoberg,Wide,110,46%,Reds average K% vs RHP
+5/25/2025,Chris Bassitt,TOR,TB,5,2,Under,8,7.5,7.7,8.1,21.90%,98,Rogers Centre,1.01,70°F,5 mph W,Lance Barrett,Slightly Tight,-110,49%,Rays high K% vs RHP
+5/25/2025,Ryan Pepiot,TB,TOR,4.5,5,Over,9.3,8.9,9.1,9.5,21.20%,101,Rogers Centre,1.01,70°F,5 mph W,Lance Barrett,Slightly Tight,105,52%,Jays average K% vs RHP
+5/25/2025,Davis Martin,CWS,TEX,4,2,Under,7.8,7.2,7.5,8,22.00%,95,Globe Life Field,0.99,74°F,8 mph S,Phil Cuzzi,Slightly Wide,-110,47%,Rangers avg K% vs RHP
+5/25/2025,Patrick Corbin,TEX,CWS,4,6,Over,6.5,6.1,6.3,6.7,23.40%,91,Globe Life Field,0.99,74°F,8 mph S,Phil Cuzzi,Slightly Wide,105,46%,White Sox high K% vs LHP
+5/25/2025,Luis Castillo,SEA,HOU,3.5,6,Over,10.1,9.8,10,10.3,20.50%,98,Minute Maid Park,1.01,75°F,5 mph S,Alex Tosi,Neutral,-120,52%,Astros low K% vs RHP
+5/25/2025,Colton Gordon,HOU,SEA,4.5,4,Under,8.4,7.9,8.2,8.6,23.70%,94,Minute Maid Park,1.01,75°F,5 mph S,Alex Tosi,Neutral,110,48%,Mariners high K% vs LHP
+5/25/2025,Kris Bubic,KC,MIN,3.5,9,Over,8.6,8.2,8.4,8.8,24.20%,92,Target Field,1,67°F,7 mph W,Chad Whitson,Neutral,-110,53%,Twins high K% vs LHP
+5/25/2025,Bailey Ober,MIN,KC,5,3,Under,8,7.7,7.8,8.2,21.50%,95,Target Field,1,67°F,7 mph W,Chad Whitson,Neutral,105,44%,Royals low K% vs RHP
+5/26/2025,Nick Pivetta,SD,SEA,6,7,Over,9.1,8.7,8.9,9.2,22.80%,97,T-Mobile Park,1,66°F,6 mph SW,Mark Wegner,Neutral,-115,54%,Mariners avg K% vs RHP
+5/26/2025,Zac Gallen,AZ,COL,6.5,5,Under,9.7,9.1,9.3,9.6,21.70%,95,Chase Field,1.01,74°F,7 mph S,Chris Guccione,Slightly Tight,-120,50%,Rockies low K% vs RHP
+5/26/2025,Germán Márquez,COL,AZ,3,1,Under,7,6.8,6.9,7.1,22.20%,97,Chase Field,1.01,74°F,7 mph S,Chris Guccione,Slightly Tight,110,45%,D-backs avg K% vs RHP
+5/25/2025,Jack Leiter,TEX,HOU,4.5,4,Under,7.8,7.2,7.5,7.5,19.50%,70,Globe Life Field,0.98,72°F,4 mph SW,—,—,-115,52%,"Young arm, high upside"
+5/25/2025,Brayan Bello,BOS,ATL,4,3,Under,7.1,6.8,7,7.2,20.20%,99,Truist Park,1,78°F,5 mph S,—,—,-110,48%,Braves tough K matchup
+5/25/2025,Paul Skenes,PIT,PHI,6,9,Over,10.9,10.7,11.4,10.8,22.50%,102,Citizens Bank,1.01,75°F,3 mph W,—,—,-120,56%,Dominant outing
+5/25/2025,Zach Eflin,BAL,WSH,4.5,4,Under,7.9,7.7,7.5,8.1,20.80%,92,Nationals Park,0.99,80°F,6 mph N,—,—,-105,50%,Nationals low K% vs RHP
+5/25/2025,Mick Abel,PHI,PIT,4.5,9,Over,10.2,10.4,10.1,10.3,23.00%,88,Citizens Bank,1.01,75°F,3 mph W,—,—,-125,53%,Breakout start
+5/25/2025,Michael Soroka,WSH,BAL,4.5,8,Over,8,8.2,7.8,8.1,21.50%,91,Nationals Park,0.99,80°F,6 mph N,—,—,-110,50%,Orioles K-prone vs RHP
+5/25/2025,Shane Baz,TB,MIA,5.5,2,Under,9.7,9.4,9.2,9.6,20.60%,94,LoanDepot Park,0.98,78°F,2 mph NE,—,—,-105,46%,"Struggled, early exit"
+5/25/2025,Luis L. Ortiz,CLE,CIN,5.5,7,Over,8.5,8.8,8.3,8.7,21.20%,90,Great Am. Ball Pk,1.03,81°F,5 mph W,—,—,105,48%,Reds above-average K% vs RHP
+5/25/2025,Max Fried,NYY,NYM,5.5,8,Over,8.5,9,8.7,8.7,22.30%,98,Yankee Stadium,0.99,67°F,5 mph SSW,—,—,-135,54%,Strong performance
+5/25/2025,David Peterson,NYM,NYY,5,4,Under,8.5,8,8.3,9,20.80%,96,Yankee Stadium,0.99,67°F,5 mph SSW,—,—,115,46%,Yankees low K% vs LHP
+5/25/2025,Kodai Senga,NYM,LAD,6,5,Under,10,9.6,9.8,10.2,21.00%,101,Dodger Stadium,1,70°F,7 mph SW,—,—,-120,53%,Dodgers tough K matchup
+5/25/2025,Landon Knack,LAD,NYM,4,5,Over,8.4,8.1,8,8.7,22.40%,98,Dodger Stadium,1,70°F,7 mph SW,—,—,110,47%,Outperformed projection
+5/25/2025,Jesús Luzardo,PHI,ATH,6,10,Over,10.7,10.2,10.4,10.8,22.40%,92,Citizens Bank Park,1.01,72°F,7 mph SW,C.B. Bucknor,Neutral,-120,55%,A's high K% vs LHP
+5/25/2025,Edward Cabrera,MIA,LAA,6,10,Over,10.1,9.7,10,10.5,23.10%,97,LoanDepot Park,0.98,78°F,2 mph NE,J. Rackley,Neutral,-110,52%,Angels average K% vs RHP
+5/25/2025,Kyle Hendricks,LAA,MIA,3.5,5,Over,6.2,5.8,6.4,6,21.90%,94,Angel Stadium,0.99,74°F,5 mph SW,Bill Miller,Slightly Wide,110,48%,Marlins below average K% vs RHP
+5/25/2025,Spencer Schwellenbach,ATL,SD,4.5,11,Over,9,9.2,8.7,9.1,22.80%,98,Truist Park,1.03,78°F,7 mph S,Mike Estabrook,Neutral,-110,51%,Padres above avg K% vs RHP
+5/25/2025,Gunnar Hoglund,ATH,PHI,4,2,Under,7.8,7.3,7.1,8,20.90%,93,Citizens Bank Park,1.01,72°F,7 mph SW,C.B. Bucknor,Neutral,120,44%,Phillies average K% vs RHP
+5/25/2025,Dylan Cease,SD,ATL,6,8,Over,11,10.6,10.9,11.2,24.40%,101,Truist Park,1.03,78°F,7 mph S,Mike Estabrook,Neutral,-115,57%,Braves high K% vs RHP
+5/25/2025,Kodai Senga,NYM,LAD,6,5,Under,10,9.6,9.8,10.2,21.00%,101,Dodger Stadium,1,70°F,7 mph SW,Not confirmed,—,-120,53%,Dodgers tough K matchup
+5/25/2025,Landon Knack,LAD,NYM,4,5,Over,8.4,8.1,8,8.7,22.40%,98,Dodger Stadium,1,70°F,7 mph SW,Not confirmed,—,110,47%,Outperformed projection
+5/25/2025,Nick Pivetta,SD,SEA,6,7,Over,9.1,8.7,8.9,9.2,22.80%,97,T-Mobile Park,1,66°F,6 mph SW,Mark Wegner,Neutral,-115,54%,Mariners avg K% vs RHP
+5/25/2025,Zac Gallen,AZ,COL,6.5,5,Under,9.7,9.1,9.3,9.6,21.70%,95,Chase Field,1.01,74°F,7 mph S,Chris Guccione,Slightly Tight,-120,50%,Rockies low K% vs RHP
+5/25/2025,Germán Márquez,COL,AZ,3,1,Under,7,6.8,6.9,7.1,22.20%,97,Chase Field,1.01,74°F,7 mph S,Chris Guccione,Slightly Tight,110,45%,D-backs avg K% vs RHP
+5/25/2025,Jack Leiter,TEX,HOU,4.5,4,Under,7.8,7.2,7.5,7.5,19.50%,70,Globe Life Field,0.98,72°F,4 mph SW,J. Porter,Neutral,-115,52%,"Young arm, high upside"
+5/25/2025,Brayan Bello,BOS,ATL,4,3,Under,7.1,6.8,7,7.2,20.20%,99,Truist Park,1,78°F,5 mph S,T. Welke,Neutral,-110,48%,Braves tough K matchup
+5/25/2025,Paul Skenes,PIT,PHI,6,9,Over,10.9,10.7,11.4,10.8,22.50%,102,Citizens Bank,1.01,75°F,3 mph W,A. Johnson,Neutral,-120,56%,Dominant outing
+5/25/2025,Zach Eflin,BAL,WSH,4.5,4,Under,7.9,7.7,7.5,8.1,20.80%,92,Nationals Park,0.99,80°F,6 mph N,C. Conroy,Neutral,-105,50%,Nationals low K% vs RHP
+5/25/2025,Mick Abel,PHI,PIT,4.5,9,Over,10.2,10.4,10.1,10.3,23.00%,88,Citizens Bank Park,1.01,75°F,3 mph W,—,—,-125,53%,Breakout start
+5/25/2025,Michael Soroka,WSH,BAL,4.5,8,Over,8,8.2,7.8,8.1,21.50%,91,Nationals Park,0.99,80°F,6 mph N,—,—,-110,50%,Orioles K-prone vs RHP
+5/25/2025,Shane Baz,TB,MIA,5.5,2,Under,9.7,9.4,9.2,9.6,20.60%,94,LoanDepot Park,0.98,78°F,2 mph NE,—,—,-105,46%,"Struggled, early exit"
+5/25/2025,Luis L. Ortiz,CLE,CIN,5.5,7,Over,8.5,8.8,8.3,8.7,21.20%,90,Great Am. Ball Pk,1.03,81°F,5 mph W,—,—,105,48%,Reds above-average K% vs RHP
+5/25/2025,Ben Brown,CHC,MIA,4.5,8,Over,8.8,8.2,8.1,8.6,22.50%,93,Wrigley Field,1.02,68°F,8 mph SW,Pat Hoberg,Wide,110,46%,Marlins below avg K% vs RHP
+5/25/2025,Nick Lodolo,CIN,PIT,5.5,7,Over,9,8.7,8.8,9.1,24.00%,90,Wrigley Field,1.02,68°F,8 mph SW,Pat Hoberg,Wide,-120,55%,Pirates high K% vs LHP
+5/25/2025,Mitch Keller,PIT,CIN,6,5,Under,9,8.7,8.8,9.2,24.20%,101,PNC Park,1.01,71°F,5 mph N,—,—,-110,52%,Reds above avg K% vs RHP
+5/25/2025,Hunter Dobbins,BOS,NYM,4,2,Under,7.4,7,7.2,7.6,22.00%,95,Fenway Park,0.97,70°F,7 mph SW,—,—,-105,48%,Mets low K% vs RHP
+5/25/2025,Colton Gordon,HOU,TB,4,7,Over,8.4,7.9,8.2,8.6,23.70%,94,Minute Maid Park,1.01,75°F,5 mph S,Alex Tosi,Neutral,110,48%,Rays high K% vs LHP
+5/25/2025,Ryan Pepiot,TB,HOU,5,2,Under,9.3,8.9,9.1,9.5,21.20%,101,Minute Maid Park,1.01,75°F,5 mph S,Alex Tosi,Neutral,105,52%,Astros low K% vs RHP
+5/25/2025,Bailey Ober,MIN,CLE,5,DNP,—,8,7.7,7.8,8.2,21.50%,95,Target Field,1,67°F,7 mph W,Chad Whitson,Neutral,105,44%,Did not play
+5/25/2025,Logan Allen,CLE,MIN,3.5,DNP,—,7.2,6.8,7.5,7,23.70%,90,Target Field,1,67°F,7 mph W,Chad Whitson,Neutral,105,44%,Did not play
+5/25/2025,Edward Cabrera,MIA,CHC,5,7,Over,10.1,9.7,10,10.5,23.10%,97,LoanDepot Park,0.98,78°F,2 mph NE,J. Rackley,Neutral,-110,52%,Cubs above avg K% vs RHP
+5/25/2025,Ryan Pepiot,TB,HOU,5,2,Under,9.3,8.9,9.1,9.5,21.20%,101,Minute Maid Park,1.01,75°F,5 mph S,Alex Tosi,Neutral,105,52%,Astros low K% vs RHP
+5/25/2025,Luis Castillo,SEA,CWS,5.5,5,Under,10.1,9.8,10,10.3,20.50%,98,T-Mobile Park,1,66°F,6 mph SW,Mark Wegner,Neutral,-115,54%,White Sox average K% vs RHP
+5/26/2025,Bailey Falter,PIT,CIN,4,5,Over,7.2,7,7.5,7.1,22.40%,95,PNC Park,1.01,70°F,5 mph N,Mark Wegner,Neutral,105,47%,Reds average K% vs LHP
+5/26/2025,Nick Martinez,CIN,PIT,4.5,3,Under,8.4,8,8.2,8.6,21.80%,93,PNC Park,1.01,70°F,5 mph N,Mark Wegner,Neutral,-110,51%,Pirates below avg K% vs RHP
+5/26/2025,Jameson Taillon,CHC,MIA,5,2,Under,7.7,7.3,7.1,7.9,20.50%,97,Wrigley Field,1.02,68°F,8 mph SW,Alan Porter,Slightly Wide,-105,48%,Marlins low K% vs RHP
+5/26/2025,Ryan Weathers,MIA,CHC,4.5,4,Under,8.1,7.9,8,8.2,23.20%,94,Wrigley Field,1.02,68°F,8 mph SW,Alan Porter,Slightly Wide,110,44%,Cubs above avg K% vs LHP
+5/26/2025,Mitchell Parker,WSH,ATL,4.5,4,Under,8.9,8.5,8.7,9.2,21.70%,99,Truist Park,1.03,78°F,5 mph S,Adam Hamari,Tight,-110,52%,Braves average K% vs LHP
+5/26/2025,Spencer Strider,ATL,WSH,5,3,Under,12.1,11.5,11.8,12,23.00%,102,Truist Park,1.03,78°F,5 mph S,Adam Hamari,Tight,-120,55%,Nationals low K% vs RHP
+5/26/2025,Bailey Falter,PIT,CIN,4,5,Over,7.2,7,7.5,7.1,22.40%,95,PNC Park,1.01,70°F,5 mph N,Mark Wegner,Neutral,105,47%,Reds average K% vs LHP
+5/26/2025,Nick Martinez,CIN,PIT,4.5,3,Under,8.4,8,8.2,8.6,21.80%,93,PNC Park,1.01,70°F,5 mph N,Mark Wegner,Neutral,-110,51%,Pirates below avg K% vs RHP
+5/26/2025,Jameson Taillon,CHC,MIA,5,2,Under,7.7,7.3,7.1,7.9,20.50%,97,Wrigley Field,1.02,68°F,8 mph SW,Alan Porter,Slightly Wide,-105,48%,Marlins low K% vs RHP
+5/26/2025,Ryan Weathers,MIA,CHC,4.5,4,Under,8.1,7.9,8,8.2,23.20%,94,Wrigley Field,1.02,68°F,8 mph SW,Alan Porter,Slightly Wide,110,44%,Cubs above avg K% vs LHP
+5/26/2025,Mitchell Parker,WSH,ATL,4.5,4,Under,8.9,8.5,8.7,9.2,21.70%,99,Truist Park,1.03,78°F,5 mph S,Adam Hamari,Tight,-110,52%,Braves average K% vs LHP
+5/26/2025,Spencer Strider,ATL,WSH,5,3,Under,12.1,11.5,11.8,12,23.00%,102,Truist Park,1.03,78°F,5 mph S,Adam Hamari,Tight,-120,55%,Nationals low K% vs RHP
+5/26/2025,Clay Holmes,NYM,BOS,5,5,Push,8.5,8.2,8,8.7,22.00%,98,Fenway Park,0.97,70°F,7 mph SW,T. Welke,Neutral,-110,50%,Red Sox average K% vs RHP
+5/26/2025,Walker Buehler,BOS,NYM,4,4,Push,9.1,8.7,8.8,9,21.70%,97,Citi Field,0.99,69°F,8 mph S,M. Muchlinski,Neutral,-115,49%,Mets average K% vs RHP
+5/26/2025,Patrick Corbin,TEX,NYY,4,3,Under,7.3,7,7.1,7.5,20.50%,91,Yankee Stadium,0.99,67°F,5 mph SSW,C. Conroy,Neutral,110,46%,Yankees low K% vs LHP
+5/26/2025,Dylan Cease,SD,TOR,5.5,6,Over,10.8,10.3,10.5,10.9,23.80%,99,Rogers Centre,1.01,70°F,5 mph W,L. Barrett,Slightly Tight,-120,54%,Jays high K% vs RHP
+5/26/2025,Nick Martinez,CIN,PIT,4.5,3,Under,8.4,8,8.2,8.6,21.80%,93,PNC Park,1.01,70°F,5 mph N,Mark Wegner,Neutral,-110,51%,Pirates below avg K% vs RHP
+5/26/2025,Nick Martinez,CIN,PIT,4.5,3,Under,8.4,8,8.2,8.6,21.80%,93,PNC Park,1.01,70°F,5 mph N,Mark Wegner,Neutral,-110,51%,Pirates below avg K% vs RHP
+5/26/2025,Ryan Weathers,MIA,CHC,4.5,4,Under,8.1,7.9,8,8.2,23.20%,94,Wrigley Field,1.02,68°F,8 mph SW,Alan Porter,Slightly Wide,110,44%,Cubs above avg K% vs LHP
+5/26/2025,Jameson Taillon,CHC,MIA,5,2,Under,7.7,7.3,7.1,7.9,20.50%,97,Wrigley Field,1.02,68°F,8 mph SW,Alan Porter,Slightly Wide,-105,48%,Marlins low K% vs RHP
+5/26/2025,Mitchell Parker,WSH,ATL,4.5,4,Under,8.9,8.5,8.7,9.2,21.70%,99,Truist Park,1.03,78°F,5 mph S,Adam Hamari,Tight,-110,52%,Braves average K% vs LHP
+5/26/2025,Spencer Strider,ATL,WSH,5,3,Under,12.1,11.5,11.8,12,23.00%,102,Truist Park,1.03,78°F,5 mph S,Adam Hamari,Tight,-120,55%,Nationals low K% vs RHP
+5/26/2025,Clay Holmes,NYM,BOS,5,5,Push,8.5,8.2,8,8.7,22.00%,98,Fenway Park,0.97,70°F,7 mph SW,T. Welke,Neutral,-110,50%,Red Sox average K% vs RHP
+5/26/2025,Bailey Falter,PIT,CIN,4,5,Over,7.2,7,7.5,7.1,22.40%,95,PNC Park,1.01,70°F,5 mph N,Mark Wegner,Neutral,105,47%,Reds average K% vs LHP
+5/26/2025,Nick Martinez,CIN,PIT,4.5,3,Under,8.4,8,8.2,8.6,21.80%,93,PNC Park,1.01,70°F,5 mph N,Mark Wegner,Neutral,-110,51%,Pirates below avg K% vs RHP
+5/26/2025,Jameson Taillon,CHC,MIA,5,2,Under,7.7,7.3,7.1,7.9,20.50%,97,Wrigley Field,1.02,68°F,8 mph SW,Alan Porter,Slightly Wide,-105,48%,Marlins low K% vs RHP
+5/26/2025,Ryan Weathers,MIA,CHC,4.5,4,Under,8.1,7.9,8,8.2,23.20%,94,Wrigley Field,1.02,68°F,8 mph SW,Alan Porter,Slightly Wide,110,44%,Cubs above avg K% vs LHP
+5/26/2025,Mitchell Parker,WSH,ATL,4.5,4,Under,8.9,8.5,8.7,9.2,21.70%,99,Truist Park,1.03,78°F,5 mph S,Adam Hamari,Tight,-110,52%,Braves average K% vs LHP
+5/26/2025,Spencer Strider,ATL,WSH,5,3,Under,12.1,11.5,11.8,12,23.00%,102,Truist Park,1.03,78°F,5 mph S,Adam Hamari,Tight,-120,55%,Nationals low K% vs RHP
+5/25/2025,Hayden Birdsong,SF,KC,4,4,Push,8.6,8.2,8,8.7,21.40%,94,Oracle Park,0.97,64°F,8 mph W,Dan Bellino,Neutral,-110,48%,Royals low K% vs RHP
+5/25/2025,Michael Lorenzen,KC,SF,4,5,Over,7.9,7.5,7.2,8.1,22.00%,90,Oracle Park,0.97,64°F,8 mph W,Dan Bellino,Neutral,105,51%,Giants average K% vs RHP
+5/25/2025,Kyle Hendricks,LAA,ATH,3,3,Push,6.2,5.8,6.4,6,21.90%,94,Angel Stadium,0.99,74°F,5 mph SW,Bill Miller,Slightly Wide,-105,49%,A's high K% vs RHP
+5/25/2025,Gunnar Hoglund,ATH,LAA,5,5,Push,7.8,7.3,7.1,8,20.90%,93,Angel Stadium,0.99,74°F,5 mph SW,Bill Miller,Slightly Wide,110,47%,Angels average K% vs RHP
+5/25/2025,Ryne Nelson,AZ,LAD,3.5,2,Under,7.5,7,7.3,7.8,21.50%,98,Dodger Stadium,1,70°F,7 mph SW,Doug Eddings,Neutral,105,44%,Dodgers low K% vs RHP
+5/25/2025,Yoshinobu Yamamoto,LAD,AZ,3.5,9,Over,10.3,10.7,10,10.5,23.10%,91,Dodger Stadium,1,70°F,7 mph SW,Doug Eddings,Neutral,-120,56%,D-backs high K% vs RHP
+5/26/2025,Bailey Falter,PIT,CIN,4,5,Over,7.2,7,7.5,7.1,22.40%,95,PNC Park,1.01,70°F,5 mph N,Mark Wegner,Neutral,105,47%,Reds average K% vs LHP
+5/26/2025,Nick Martinez,CIN,PIT,4.5,3,Under,8.4,8,8.2,8.6,21.80%,93,PNC Park,1.01,70°F,5 mph N,Mark Wegner,Neutral,-110,51%,Pirates below avg K% vs RHP
+5/26/2025,Jameson Taillon,CHC,MIA,5,2,Under,7.7,7.3,7.1,7.9,20.50%,97,Wrigley Field,1.02,68°F,8 mph SW,Alan Porter,Slightly Wide,-105,48%,Marlins low K% vs RHP
+5/26/2025,Ryan Weathers,MIA,CHC,4.5,4,Under,8.1,7.9,8,8.2,23.20%,94,Wrigley Field,1.02,68°F,8 mph SW,Alan Porter,Slightly Wide,110,44%,Cubs above avg K% vs LHP
+5/26/2025,Mitchell Parker,WSH,ATL,4.5,4,Under,8.9,8.5,8.7,9.2,21.70%,99,Truist Park,1.03,78°F,5 mph S,Adam Hamari,Tight,-110,52%,Braves average K% vs LHP
+5/26/2025,Spencer Strider,ATL,WSH,5,3,Under,12.1,11.5,11.8,12,23.00%,102,Truist Park,1.03,78°F,5 mph S,Adam Hamari,Tight,-120,55%,Nationals low K% vs RHP
+5/25/2025,Tylor Megill,NYM,BOS,6,10,Over,9.1,8.9,8.7,9.4,22.50%,95,Fenway Park,0.97,70°F,7 mph SW,Chris Conroy,Neutral,-110,48%,Red Sox average K% vs RHP
+5/25/2025,Ryan Yarbrough,NYY,TEX,3,8,Over,7,6.7,7.2,7.3,21.80%,93,Globe Life Field,0.98,72°F,4 mph SW,Andy Fletcher,Slightly Tight,110,45%,Rangers below avg K% vs LHP
+5/25/2025,Kevin Gausman,TOR,SD,4.5,9,Over,10.6,10.2,10,10.8,23.10%,97,Rogers Centre,1.01,70°F,5 mph W,Lance Barrett,Slightly Tight,-120,56%,Padres high K% vs RHP
+5/25/2025,Randy Vásquez,SD,TOR,2.5,4,Over,7.8,7.5,7.3,8,21.90%,94,Rogers Centre,1.01,70°F,5 mph W,Lance Barrett,Slightly Tight,105,44%,Blue Jays average K% vs RHP
+5/25/2025,Taijuan Walker,PHI,COL,2.5,2,Under,8,7.7,7.8,8.2,20.50%,92,Citizens Bank,1.01,75°F,3 mph W,C.B. Bucknor,Neutral,-115,52%,Rockies low K% vs RHP
+5/25/2025,Carson Palmquist,COL,PHI,3.5,2,Under,8.6,8.3,8.2,8.9,21.00%,90,Citizens Bank,1.01,75°F,3 mph W,C.B. Bucknor,Neutral,105,47%,Phillies average K% vs LHP
+5/25/2025,Dustin May,LAD,AZ,4,8,Over,9.7,9.3,9,9.8,22.20%,96,Dodger Stadium,1,70°F,7 mph SW,Doug Eddings,Neutral,-120,54%,D-backs average K% vs RHP
+5/25/2025,JP Sears,ATH,LAA,4,4,Push,8.1,7.8,7.9,8.3,20.80%,98,Angel Stadium,0.99,74°F,5 mph SW,Bill Miller,Slightly Wide,110,46%,Angels low K% vs LHP
+5/25/2025,Taijuan Walker,PHI,COL,3.5,2,Under,8,7.7,7.8,8.2,20.50%,92,Citizens Bank,1.01,75°F,3 mph W,C.B. Bucknor,Neutral,-115,52%,Rockies low K% vs RHP
+5/25/2025,Jack Kochanowicz,LAA,ATH,3,6,Over,7.5,7.2,7.1,7.8,22.50%,94,Angel Stadium,0.99,74°F,5 mph SW,Bill Miller,Slightly Wide,-110,49%,Athletics high K% vs RHP
+5/25/2025,Randy Vásquez,SD,TOR,2.5,4,Over,7.8,7.5,7.3,8,21.90%,94,Rogers Centre,1.01,70°F,5 mph W,Lance Barrett,Slightly Tight,105,44%,Blue Jays average K% vs RHP
+5/25/2025,Jack Kochanowicz,LAA,ATH,3,6,Over,7.5,7.2,7.1,7.8,22.50%,94,Angel Stadium,0.99,74°F,5 mph SW,Bill Miller,Slightly Wide,-110,49%,Athletics high K% vs RHP
+5/25/2025,JP Sears,ATH,LAA,4,4,Push,8.1,7.8,7.9,8.3,20.80%,98,Angel Stadium,0.99,74°F,5 mph SW,Bill Miller,Slightly Wide,110,46%,Angels low K% vs LHP
+5/25/2025,Dustin May,LAD,AZ,4,8,Over,9.7,9.3,9,9.8,22.20%,96,Dodger Stadium,1,70°F,7 mph SW,Doug Eddings,Neutral,-120,54%,D-backs average K% vs RHP
+5/25/2025,Kevin Gausman,TOR,SD,4.5,9,Over,10.6,10.2,10,10.8,23.10%,97,Rogers Centre,1.01,70°F,5 mph W,Lance Barrett,Slightly Tight,-120,56%,Padres high K% vs RHP
+5/25/2025,Tylor Megill,NYM,BOS,6,10,Over,9.1,8.9,8.7,9.4,22.50%,95,Fenway Park,0.97,70°F,7 mph SW,Chris Conroy,Neutral,-110,48%,Red Sox average K% vs RHP
+5/25/2025,Ryan Yarbrough,NYY,TEX,3,8,Over,7,6.7,7.2,7.3,21.80%,93,Globe Life Field,0.98,72°F,4 mph SW,Andy Fletcher,Slightly Tight,110,45%,Rangers below avg K% vs LHP
+5/25/2025,Dustin May,LAD,AZ,4,8,Over,9.7,9.3,9,9.8,22.20%,96,Dodger Stadium,1,70°F,7 mph SW,Doug Eddings,Neutral,-120,54%,D-backs average K% vs RHP
+5/25/2025,JP Sears,ATH,LAA,4,4,Push,8.1,7.8,7.9,8.3,20.80%,98,Angel Stadium,0.99,74°F,5 mph SW,Bill Miller,Slightly Wide,110,46%,Angels low K% vs LHP
+5/25/2025,Taijuan Walker,PHI,COL,3.5,2,Under,8,7.7,7.8,8.2,20.50%,92,Citizens Bank,1.01,75°F,3 mph W,C.B. Bucknor,Neutral,-115,52%,Rockies low K% vs RHP
+5/25/2025,Jack Kochanowicz,LAA,ATH,3,6,Over,7.5,7.2,7.1,7.8,22.50%,94,Angel Stadium,0.99,74°F,5 mph SW,Bill Miller,Slightly Wide,-110,49%,Athletics high K% vs RHP
+5/25/2025,Randy Vásquez,SD,TOR,2.5,4,Over,7.8,7.5,7.3,8,21.90%,94,Rogers Centre,1.01,70°F,5 mph W,Lance Barrett,Slightly Tight,105,44%,Blue Jays average K% vs RHP
+5/25/2025,Kevin Gausman,TOR,SD,4.5,9,Over,10.6,10.2,10,10.8,23.10%,97,Rogers Centre,1.01,70°F,5 mph W,Lance Barrett,Slightly Tight,-120,56%,Padres high K% vs RHP
+5/25/2025,Jacob deGrom,TEX,NYY,6.5,9,Over,12,11.7,11.8,12.2,21.90%,96,Yankee Stadium,0.99,67°F,5 mph SSW,C.B. Bucknor,Neutral,-130,55%,Yankees average K% vs RHP
+5/25/2025,Ryan Yarbrough,NYY,TEX,3,8,Over,7,6.7,7.2,7.3,21.80%,93,Globe Life Field,0.98,72°F,4 mph SW,Andy Fletcher,Slightly Tight,110,45%,Rangers below avg K% vs LHP
+5/25/2025,Kevin Gausman,TOR,SD,4.5,9,Over,10.6,10.2,10,10.8,23.10%,97,Rogers Centre,1.01,70°F,5 mph W,Lance Barrett,Slightly Tight,-120,56%,Padres high K% vs RHP
+5/25/2025,Taijuan Walker,PHI,COL,3.5,2,Under,8,7.7,7.8,8.2,20.50%,92,Citizens Bank,1.01,75°F,3 mph W,C.B. Bucknor,Neutral,-115,52%,Rockies low K% vs RHP
+5/25/2025,Jack Kochanowicz,LAA,ATH,3,6,Over,7.5,7.2,7.1,7.8,22.50%,94,Angel Stadium,0.99,74°F,5 mph SW,Bill Miller,Slightly Wide,-110,49%,Athletics high K% vs RHP
+5/25/2025,JP Sears,ATH,LAA,4,4,Push,8.1,7.8,7.9,8.3,20.80%,98,Angel Stadium,0.99,74°F,5 mph SW,Bill Miller,Slightly Wide,110,46%,Angels low K% vs LHP
+5/25/2025,Dustin May,LAD,AZ,4,8,Over,9.7,9.3,9,9.8,22.20%,96,Dodger Stadium,1,70°F,7 mph SW,Doug Eddings,Neutral,-120,54%,D-backs average K% vs RHP
+5/25/2025,Taijuan Walker,PHI,COL,3.5,2,Under,8,7.7,7.8,8.2,20.50%,92,Citizens Bank,1.01,75°F,3 mph W,C.B. Bucknor,Neutral,-115,52%,Rockies low K% vs RHP
+5/25/2025,Kevin Gausman,TOR,SD,4.5,9,Over,10.6,10.2,10,10.8,23.10%,97,Rogers Centre,1.01,70°F,5 mph W,Lance Barrett,Slightly Tight,-120,56%,Padres high K% vs RHP
+5/25/2025,Jacob deGrom,TEX,NYY,6.5,9,Over,12,11.7,11.8,12.2,21.90%,96,Yankee Stadium,0.99,67°F,5 mph SSW,C.B. Bucknor,Neutral,-130,55%,Yankees average K% vs RHP
+5/25/2025,Germán Márquez,COL,PHI,3,5,Over,7,6.8,6.9,7.1,22.20%,97,Citizens Bank Park,1.01,72°F,7 mph SW,C.B. Bucknor,Neutral,120,45%,Phillies avg K% vs RHP
+5/25/2025,Ranger Suárez,PHI,COL,5.5,6,Over,9.2,9,9.1,9.3,22.70%,91,Citizens Bank Park,1.01,72°F,7 mph SW,C.B. Bucknor,Neutral,-120,56%,Rockies avg K% vs LHP
+5/25/2025,Luis Severino,ATH,LAA,5,5,Push,8.5,8.1,8.3,8.7,20.80%,99,Angel Stadium,0.99,74°F,5 mph SW,Bill Miller,Slightly Wide,-110,50%,Angels low K% vs RHP
+5/25/2025,Tyler Anderson,LAA,ATH,4,0,Under,7.2,6.9,7,7.4,22.50%,92,Angel Stadium,0.99,74°F,5 mph SW,Bill Miller,Slightly Wide,-110,48%,A's high K% vs LHP
+5/25/2025,Mike Burrows,PIT,MIL,3.5,3,Under,8.1,8,7.8,8.2,23.50%,94,American Family Fld,1.04,65°F,10 mph NW,Edwin Moscoso,Slightly Tight,-110,51%,Brewers above avg K% vs RHP
+5/25/2025,Tanner Bibee,CLE,DET,5,8,Over,8.6,8.1,8.3,8.5,25.00%,88,Comerica Park,0.97,74°F,7 mph S,Brian O'Nora,Neutral,-115,53%,Tigers high K% vs RHP
+5/25/2025,Germán Márquez,COL,PHI,3,5,Over,7,6.8,6.9,7.1,22.20%,97,Citizens Bank Park,1.01,72°F,7 mph SW,C.B. Bucknor,Neutral,120,45%,Phillies avg K% vs RHP
+5/25/2025,Ranger Suárez,PHI,COL,5.5,6,Over,9.2,9,9.1,9.3,22.70%,91,Citizens Bank Park,1.01,72°F,7 mph SW,C.B. Bucknor,Neutral,-120,56%,Rockies avg K% vs LHP
+5/25/2025,Luis Severino,ATH,LAA,5,5,Push,8.5,8.1,8.3,8.7,20.80%,99,Angel Stadium,0.99,74°F,5 mph SW,Bill Miller,Slightly Wide,-110,50%,Angels low K% vs RHP
+5/25/2025,Tyler Anderson,LAA,ATH,4,0,Under,7.2,6.9,7,7.4,22.50%,92,Angel Stadium,0.99,74°F,5 mph SW,Bill Miller,Slightly Wide,-110,48%,A's high K% vs LHP
+5/25/2025,Mike Burrows,PIT,MIL,3.5,3,Under,8.1,8,7.8,8.2,23.50%,94,American Family Fld,1.04,65°F,10 mph NW,Edwin Moscoso,Slightly Tight,-110,51%,Brewers above avg K% vs RHP
+5/25/2025,Tanner Bibee,CLE,DET,5,8,Over,8.6,8.1,8.3,8.5,25.00%,88,Comerica Park,0.97,74°F,7 mph S,Brian O'Nora,Neutral,-115,53%,Tigers high K% vs RHP
+5/25/2025,Germán Márquez,COL,PHI,3,5,Over,7,6.8,6.9,7.1,22.20%,97,Citizens Bank Park,1.01,72°F,7 mph SW,C.B. Bucknor,Neutral,120,45%,Phillies avg K% vs RHP
+5/25/2025,Ranger Suárez,PHI,COL,5.5,6,Over,9.2,9,9.1,9.3,22.70%,91,Citizens Bank Park,1.01,72°F,7 mph SW,C.B. Bucknor,Neutral,-120,56%,Rockies avg K% vs LHP
+5/25/2025,Tyler Anderson,LAA,ATH,4,0,Under,7.2,6.9,7,7.4,22.50%,92,Angel Stadium,0.99,74°F,5 mph SW,Bill Miller,Slightly Wide,-110,48%,A's high K% vs LHP
+5/25/2025,Luis Severino,ATH,LAA,5,5,Push,8.5,8.1,8.3,8.7,20.80%,99,Angel Stadium,0.99,74°F,5 mph SW,Bill Miller,Slightly Wide,-110,50%,Angels low K% vs RHP
+5/25/2025,Mike Burrows,PIT,MIL,3.5,3,Under,8.1,8,7.8,8.2,23.50%,94,American Family Fld,1.04,65°F,10 mph NW,Edwin Moscoso,Slightly Tight,-110,51%,Brewers above avg K% vs RHP
+5/26/2025,Mike Burrows,PIT,MIL,3.5,3,Under,8.1,8,7.8,8.2,23.50%,94,American Family Fld,1.04,65°F,10 mph NW,Morales,Slightly Tight,-110,51%,Brewers above avg K% vs RHP
+5/26/2025,Tanner Bibee,CLE,DET,5,8,Over,8.6,8.1,8.3,8.5,25.00%,88,Comerica Park,0.97,74°F,7 mph S,Brian O'Nora,Neutral,-115,53%,Tigers high K% vs RHP
+5/26/2025,Jack Flaherty,DET,CLE,5,8,Over,9.2,9.1,9.5,9,23.50%,92,Comerica Park,0.97,74°F,7 mph S,Brian O'Nora,Neutral,-110,51%,Guardians average K% vs RHP
+5/26/2025,Trevor Williams,WSH,ATL,4,3,Under,6.5,6.9,6.7,6.7,21.70%,99,Nationals Park,1.02,78°F,7 mph S,Torres,Neutral,105,47%,Braves average K% vs RHP
+5/26/2025,AJ Smith-Shawver,ATL,WSH,5,1,Under,9,9.1,9.2,9,22.00%,95,Nationals Park,1.02,78°F,7 mph S,Torres,Neutral,-110,50%,Nationals below avg K% vs RHP
+5/26/2025,George Kirby,SEA,HOU,4,4,Push,10.8,10.2,10.3,10.3,20.90%,98,Minute Maid Park,1,80°F,6 mph S,Morales,Neutral,-120,55%,Astros low K% vs RHP
+5/26/2025,Nick Pivetta,SD,ATL,5,7,Over,9.4,8.7,9.1,9.2,22.20%,98,Petco Park,0.98,70°F,6 mph SW,Mark Carlson,Neutral,-110,51%,Braves average K% vs RHP
+5/26/2025,Chris Sale,ATL,SD,6.5,6,Under,10.2,9.9,10.5,10,21.10%,102,Petco Park,0.98,70°F,6 mph SW,Mark Carlson,Neutral,-110,53%,Padres above avg K% vs LHP
+5/26/2025,Tyler Mahle,TEX,CWS,4.5,3,Under,8.5,8,8.2,8.7,23.90%,91,Globe Life Field,0.99,74°F,8 mph S,Phil Cuzzi,Slightly Wide,-115,47%,White Sox high K% vs RHP
+5/26/2025,Sean Burke,CWS,TEX,4,6,Over,8.1,8.4,8.9,7.8,22.00%,97,Globe Life Field,0.99,74°F,8 mph S,Phil Cuzzi,Slightly Wide,110,45%,Rangers average K% vs RHP
+5/26/2025,Emerson Hancock,SEA,HOU,3,3,Push,7.6,7.2,7.4,7.7,19.70%,98,T-Mobile Park,1,69°F,6 mph SW,Vic Carapazza,Neutral,-110,47%,Astros low K% vs RHP
+5/26/2025,Ryan Gusto,HOU,SEA,4,6,Over,8.3,8,8.1,8.5,23.60%,93,T-Mobile Park,1,69°F,6 mph SW,Vic Carapazza,Neutral,-105,49%,Mariners high K% vs LHP
+5/26/2025,Pablo López,MIN,KC,5.5,5,Under,10.4,10,9.8,10.2,21.80%,94,Target Field,1.01,65°F,8 mph N,Adam Beck,Slightly Tight,-120,53%,Royals average K% vs RHP
+5/26/2025,Noah Cameron,KC,MIN,4,8,Over,9.2,9.5,9,9.3,23.90%,97,Target Field,1.01,65°F,8 mph N,Adam Beck,Slightly Tight,110,44%,Twins high K% vs LHP
+5/26/2025,Miles Mikolas,STL,AZ,3,4,Over,6.8,6.5,7,6.7,21.50%,91,Chase Field,1.01,74°F,7 mph S,Edwin Jimenez,Neutral,-105,48%,D-backs average K% vs RHP
+5/26/2025,Zac Gallen,AZ,STL,5,4,Under,9.7,9.1,9.3,9.6,22.00%,95,Chase Field,1.01,74°F,7 mph S,Edwin Jimenez,Neutral,-120,52%,Cardinals below avg K% vs RHP
+5/26/2025,Clarke Schmidt,NYY,COL,6,8,Over,9.4,9,9.2,9.6,23.80%,91,Yankee Stadium,0.99,67°F,5 mph SSW,C.B. Bucknor,Neutral,-110,50%,Rockies high K% vs RHP
+5/26/2025,Tanner Gordon,COL,NYY,2.5,5,Over,7.2,7,7.3,7.5,22.50%,93,Yankee Stadium,0.99,67°F,5 mph SSW,C.B. Bucknor,Neutral,120,44%,Yankees average K% vs LHP
+5/26/2025,Sandy Alcantara,MIA,LAA,5.5,6,Over,8.8,8.4,8.7,8.9,21.00%,98,LoanDepot Park,0.98,78°F,2 mph NE,J. Rackley,Neutral,-110,52%,Angels low K% vs RHP
+5/26/2025,Zack Wheeler,PHI,ATH,7,8,Over,10.1,9.8,10,10.3,25.00%,88,Citizens Bank,1.01,75°F,3 mph W,C.B. Bucknor,Neutral,-120,56%,Athletics highest K% vs RHP
+5/26/2025,Yusei Kikuchi,LAA,MIA,6,4,Under,9.2,8.7,8.9,9.5,20.80%,99,LoanDepot Park,0.98,78°F,2 mph NE,J. Rackley,Neutral,110,46%,Marlins below avg K% vs LHP
+5/25/2025,Zach Eflin,BAL,BOS,4.5,1,Under,7.9,7.6,7.2,8.1,20.50%,98,Fenway Park,0.97,69°F,7 mph SW,Chris Conroy,Neutral,-110,47%,Red Sox low K% vs RHP
+5/25/2025,Hunter Dobbins,BOS,BAL,2.5,7,Over,8.4,8.7,8.1,8.6,22.90%,94,Fenway Park,0.97,69°F,7 mph SW,Chris Conroy,Neutral,-110,48%,Orioles high K% vs RHP
+5/25/2025,Michael Wacha,KC,MIN,4.5,1,Under,7.6,7.3,7,7.9,20.70%,97,Target Field,1.01,65°F,8 mph N,Adam Beck,Slightly Tight,105,44%,Twins low K% vs RHP
+5/25/2025,Zebby Matthews,MIN,KC,3.5,9,Over,8.9,8.5,8.7,9.1,23.40%,91,Target Field,1.01,65°F,8 mph N,Adam Beck,Slightly Tight,-120,53%,Royals high K% vs RHP
+5/25/2025,Matthew Liberatore,STL,AZ,4,4,Push,8.2,7.9,8,8.4,21.90%,95,Chase Field,1.01,74°F,7 mph S,Edwin Jimenez,Neutral,-105,49%,D-backs average K% vs LHP
+5/25/2025,Merrill Kelly,AZ,STL,4,6,Over,8.7,8.4,8.6,8.9,22.30%,92,Chase Field,1.01,74°F,7 mph S,Edwin Jimenez,Neutral,-110,51%,Cardinals average K% vs RHP
+5/24/2025,Jake Irvin,WSH,SF,3.5,7,Over,6.2,5.6,7,5.6,22.10%,92,Nationals Park,0.99,81°F,6 mph SSE,Erich Bacchus,Neutral,-110,51%,Home splits: 5.62 K/9
+5/24/2025,Kyle Harrison,SF,WSH,4,4,Push,9.2,8.7,8,9,19.50%,90,Nationals Park,0.99,81°F,6 mph SSE,Erich Bacchus,Neutral,-110,49%,Recent trade to SF
+5/24/2025,Mitch Keller,PIT,MIL,4.5,7,Over,7.2,7.1,7.5,7.3,21.00%,95,PNC Park,0.97,72°F,4 mph NW,—,—,-108,48%,"K% dropped, durable"
+5/24/2025,Quinn Priester,MIL,PIT,2.5,7,Over,6,6.4,6.8,6.3,21.00%,93,American Family,0.98,74°F,5 mph W,—,—,105,47%,Starter K/9: 6.0
+5/24/2025,Jack Leiter,TEX,CWS,4.5,3,Under,9,7.8,7.2,7.5,22.00%,91,Globe Life Field,0.98,72°F,4 mph SW,—,—,-115,52%,"Young arm, high upside"
+5/24/2025,Kyle Freeland,COL,NYY,3.5,3,Under,7.3,5.9,6.5,5.8,25.00%,99,Yankee Stadium,0.99,67°F,5 mph SSW,—,—,120,44%,Struggles on road
+5/25/2025,Max Fried,NYY,COL,5.5,7,Over,8.5,9,8.7,8.7,23.80%,91,Yankee Stadium,0.99,67°F,5 mph SSW,C.B. Bucknor,Neutral,-110,50%,Rockies high K% vs LHP
+5/25/2025,Grant Holmes,ATL,SD,3.5,6,Over,8,7.7,7.9,8.2,22.00%,97,Petco Park,0.98,70°F,6 mph SW,Mark Carlson,Neutral,110,46%,Padres average K% vs RHP
+5/25/2025,Andrew Abbott,CIN,CHC,4.5,2,Under,9.1,8.8,8.6,9.3,21.20%,99,Wrigley Field,1.02,68°F,8 mph SW,Alan Porter,Slightly Wide,-105,48%,Cubs below avg K% vs LHP
+5/25/2025,Colin Rea,CHC,CIN,4,8,Over,7.6,7.3,7.5,7.8,22.70%,94,Wrigley Field,1.02,68°F,8 mph SW,Alan Porter,Slightly Wide,-110,51%,Reds high K% vs RHP
+5/25/2025,Framber Valdez,HOU,SEA,6,5,Under,8.7,8.3,8,8.9,22.40%,97,T-Mobile Park,1,69°F,6 mph SW,Vic Carapazza,Neutral,-120,53%,Mariners average K% vs LHP
+5/25/2025,Bryan Woo,SEA,HOU,5.5,5,Under,9.4,9.1,9,9.6,20.50%,99,T-Mobile Park,1,69°F,6 mph SW,Vic Carapazza,Neutral,110,45%,Astros low K% vs RHP
+5/25/2025,Lucas Giolito,BOS,BAL,3.5,6,Over,8.7,9.1,8.3,8.5,22.60%,100,Fenway Park,0.97,69°F,7 mph SW,Chris Conroy,Neutral,-120,53%,Orioles K% below avg vs RHP
+5/25/2025,Shane Baz,TB,TOR,4.5,4,Under,9.5,8.8,8.1,9.2,20.40%,97,Rogers Centre,1.01,70°F,5 mph W,Lance Barrett,Slightly Tight,-110,49%,Jays low K% vs RHP
+5/25/2025,José Berríos,TOR,TB,4.5,3,Under,8.2,7.9,7.7,8.4,22.10%,101,Rogers Centre,1.01,70°F,5 mph W,Lance Barrett,Slightly Tight,-110,48%,Rays higher K% vs RHP
+5/25/2025,Casey Mize,DET,CLE,4,6,Over,7.1,7.3,7.5,7,21.80%,94,Comerica Park,0.97,65°F,8 mph NE,Brian O'Nora,Neutral,105,46%,Guardians low K% vs RHP
+5/25/2025,Luis L. Ortiz,CLE,DET,3.5,3,Under,8,7.6,7.2,8.2,23.60%,88,Comerica Park,0.97,65°F,8 mph NE,Brian O'Nora,Neutral,-105,51%,Tigers high K% vs RHP
+5/25/2025,Tony Gonsolin,LAD,NYM,5,4,Under,8.8,8.2,8,8.5,21.50%,99,Citi Field,0.99,68°F,10 mph NW,Alan Porter,Slightly Wide,-115,54%,Mets avg K% vs RHP
+5/26/2025,Cristopher Sánchez,PHI,ATH,5.5,6,Over,9,8.7,8.8,9.2,25.00%,88,Citizens Bank,1.01,75°F,3 mph W,C.B. Bucknor,Neutral,-120,56%,Athletics highest K% vs LHP
+5/26/2025,Jeffrey Springs,ATH,PHI,4,6,Over,8.3,8,7.9,8.6,21.70%,96,Citizens Bank,1.01,75°F,3 mph W,C.B. Bucknor,Neutral,110,44%,Phillies average K% vs LHP
+5/26/2025,José Soriano,LAA,MIA,4.5,1,Under,8,7.8,7.5,8.1,21.00%,99,loanDepot Park,0.98,78°F,2 mph NE,J. Rackley,Neutral,-110,52%,Marlins below avg K% vs RHP
+5/26/2025,Cal Quantrill,MIA,LAA,4,2,Under,7.2,7,7.1,7.4,20.80%,98,Angel Stadium,0.99,74°F,5 mph SW,Bill Miller,Slightly Wide,110,46%,Angels low K% vs RHP
+5/25/2025,Tarik Skubal,DET,CLE,7.5,13,Over,10.5,11.2,10.9,10.3,19.10%,95,Comerica Park,0.97,74°F,7 mph S,Brian O'Nora,Neutral,-130,57%,"Elite form, Guardians low K%"
+5/25/2025,Logan Allen,CLE,DET,4,2,Under,7.2,6.8,7.5,7,23.70%,90,Comerica Park,0.97,74°F,7 mph S,Brian O'Nora,Neutral,110,44%,Tigers high K% vs LHP
+5/25/2025,Robbie Ray,SF,WSH,6.5,7,Over,9.8,8.9,9.2,10.1,20.50%,92,Oracle Park,0.94,66°F,10 mph W,Ryan Additon,Slightly Tight,-115,51%,First start off IL
+5/25/2025,Michael Soroka,WSH,SF,5,2,Under,7,6.5,6.9,7.3,21.90%,93,Oracle Park,0.94,66°F,10 mph W,Ryan Additon,Slightly Tight,105,46%,Giants average K% vs RHP
+5/25/2025,Dean Kremer,BAL,BOS,5,4,Under,8.1,7.6,8.3,8.5,21.20%,101,Fenway Park,0.97,68°F,8 mph SW,Chris Conroy,Neutral,-110,49%,Red Sox low K% vs RHP
+5/25/2025,Walker Buehler,BOS,BAL,4.5,3,Under,9.3,8.8,9,9.5,22.00%,98,Fenway Park,0.97,68°F,8 mph SW,Chris Conroy,Neutral,110,47%,Orioles average K% vs RHP
+5/25/2025,Bailey Falter,PIT,MIL,3.5,1,Under,7.2,7,7.5,7.1,23.50%,94,American Family Fld,1.04,65°F,10 mph NW,Edwin Moscoso,Slightly Tight,-110,51%,Brewers above avg K% vs LHP
+5/25/2025,Logan Henderson,MIL,PIT,5,6,Over,8.2,8.5,8,8.3,22.10%,92,American Family Fld,1.04,65°F,10 mph NW,Edwin Moscoso,Slightly Tight,105,48%,Pirates avg K% vs RHP
+5/25/2025,Ryan Pepiot,TB,TOR,4.5,5,Over,9.3,8.9,9.1,9.5,21.20%,101,Rogers Centre,1.01,70°F,5 mph W,Lance Barrett,Slightly Tight,105,52%,Jays average K% vs RHP
+5/25/2025,Chris Bassitt,TOR,TB,5,2,Under,8,7.5,7.7,8.1,21.90%,98,Rogers Centre,1.01,70°F,5 mph W,Lance Barrett,Slightly Tight,-110,49%,Rays high K% vs RHP
+5/25/2025,Ben Brown,CHC,CIN,6,4,Under,8.8,8.2,8.1,8.6,22.50%,93,Wrigley Field,1.02,68°F,8 mph SW,Pat Hoberg,Wide,-110,46%,Reds average K% vs RHP
+5/25/2025,Nick Lodolo,CIN,CHC,3.5,6,Over,9,8.7,8.8,9.1,24.00%,90,Wrigley Field,1.02,68°F,8 mph SW,Pat Hoberg,Wide,-120,55%,Cubs high K% vs LHP
+5/25/2025,Tarik Skubal,DET,CLE,8,13,Over,10.5,11.2,10.9,10.3,19.10%,95,Comerica Park,0.97,74°F,7 mph S,Brian O'Nora,Neutral,-130,57%,"Elite form, Guardians low K%"
+5/25/2025,Logan Allen,CLE,DET,4,2,Under,7.2,6.8,7.5,7,23.70%,90,Comerica Park,0.97,74°F,7 mph S,Brian O'Nora,Neutral,110,44%,Tigers high K% vs LHP
+5/25/2025,Robbie Ray,SF,WSH,6.5,7,Over,9.8,8.9,9.2,10.1,20.50%,92,Oracle Park,0.94,66°F,10 mph W,Ryan Additon,Slightly Tight,-115,51%,First start off IL
+5/25/2025,Michael Soroka,WSH,SF,5,2,Under,7,6.5,6.9,7.3,21.90%,93,Oracle Park,0.94,66°F,10 mph W,Ryan Additon,Slightly Tight,105,46%,Giants average K% vs RHP
+5/25/2025,Dean Kremer,BAL,BOS,5,4,Under,8.1,7.6,8.3,8.5,21.20%,101,Fenway Park,0.97,68°F,8 mph SW,Chris Conroy,Neutral,-110,49%,Red Sox low K% vs RHP
+5/25/2025,Davis Martin,CWS,TEX,4,2,Under,7.8,7.2,7.5,8,22.00%,95,Globe Life Field,0.99,74°F,8 mph S,Phil Cuzzi,Slightly Wide,-110,47%,Rangers avg K% vs RHP
+5/25/2025,Patrick Corbin,TEX,CWS,4,6,Over,6.5,6.1,6.3,6.7,23.40%,91,Globe Life Field,0.99,74°F,8 mph S,Phil Cuzzi,Slightly Wide,105,46%,White Sox high K% vs LHP
+5/25/2025,Luis Castillo,SEA,HOU,3.5,6,Over,10.1,9.8,10,10.3,20.50%,98,Minute Maid Park,1.01,75°F,5 mph S,Alex Tosi,Neutral,-120,52%,Astros low K% vs RHP
+5/25/2025,Colton Gordon,HOU,SEA,4.5,4,Under,8.4,7.9,8.2,8.6,23.70%,94,Minute Maid Park,1.01,75°F,5 mph S,Alex Tosi,Neutral,110,48%,Mariners high K% vs LHP
+5/25/2025,Kris Bubic,KC,MIN,3.5,9,Over,8.6,8.2,8.4,8.8,24.20%,92,Target Field,1,67°F,7 mph W,Chad Whitson,Neutral,-110,53%,Twins high K% vs LHP
+5/25/2025,Bailey Ober,MIN,KC,5,3,Under,8,7.7,7.8,8.2,21.50%,95,Target Field,1,67°F,7 mph W,Chad Whitson,Neutral,105,44%,Royals low K% vs RHP
+5/25/2025,Jesús Luzardo,PHI,ATH,6,10,Over,10.7,10.2,10.4,10.8,22.40%,92,Citizens Bank Park,1.01,72°F,7 mph SW,C.B. Bucknor,Neutral,-120,55%,A's high K% vs LHP
+5/25/2025,Gunnar Hoglund,ATH,PHI,4,2,Under,7.8,7.3,7.1,8,20.90%,93,Citizens Bank Park,1.01,72°F,7 mph SW,C.B. Bucknor,Neutral,120,44%,Phillies average K% vs RHP
+5/25/2025,Edward Cabrera,MIA,LAA,6,10,Over,10.1,9.7,10,10.5,23.10%,97,LoanDepot Park,0.98,78°F,2 mph NE,J. Rackley,Neutral,-110,52%,Angels average K% vs RHP
+5/25/2025,Kyle Hendricks,LAA,MIA,3.5,5,Over,6.2,5.8,6.4,6,21.90%,94,Angel Stadium,0.99,74°F,5 mph SW,Bill Miller,Slightly Wide,110,48%,Marlins below avg K% vs RHP
+5/25/2025,Dylan Cease,SD,ATL,6,8,Over,11,10.6,10.9,11.2,24.40%,101,Truist Park,1.03,78°F,7 mph S,Mike Estabrook,Neutral,-115,57%,Braves high K% vs RHP
+5/25/2025,Spencer Schwellenbach,ATL,SD,4.5,11,Over,9,9.2,8.7,9.1,22.80%,98,Truist Park,1.03,78°F,7 mph S,Mike Estabrook,Neutral,-110,51%,Padres above avg K% vs RHP
+5/26/2025,Garrett Crochet,BOS,MIL,5.5,11,Over,11,10.8,10.5,11.2,23.50%,94,Fenway Park,0.97,69°F,7 mph SW,Chris Conroy,Neutral,-120,53%,Brewers high K% vs LHP
+5/26/2025,Hayden Birdsong,SF,DET,3.5,6,Over,8.8,8.5,8.4,8.9,22.20%,91,Oracle Park,0.94,64°F,8 mph W,Dan Bellino,Neutral,-110,48%,Tigers average K% vs RHP
+5/26/2025,Keider Montero,DET,SF,4,3,Under,7.2,7,7.3,7.1,22.50%,90,Oracle Park,0.94,64°F,8 mph W,Dan Bellino,Neutral,105,47%,Giants below avg K% vs RHP
+5/26/2025,Chad Patrick,MIL,BOS,5,6,Over,8.5,8.1,8,8.7,22.00%,98,Fenway Park,0.97,69°F,7 mph SW,Chris Conroy,Neutral,-110,51%,Red Sox average K% vs RHP
+5/26/2025,Jameson Taillon,CHC,COL,6,7,Over,8,7.7,7.9,8.2,21.50%,95,Wrigley Field,1.02,68°F,8 mph SW,Alan Porter,Slightly Wide,-105,49%,Rockies below avg K% vs RHP
+5/26/2025,Carson Palmquist,COL,CHC,3.5,4,Over,8.4,8,8.1,8.6,22.70%,93,Wrigley Field,1.02,68°F,8 mph SW,Alan Porter,Slightly Wide,110,46%,Cubs average K% vs LHP
+5/26/2025,Clay Holmes,NYM,CWS,5,3,Under,8.5,8.2,8,8.7,21.60%,94,Citi Field,0.99,66°F,8 mph SW,Mark Wegner,Neutral,-110,48%,White Sox below avg K% vs RHP
+5/26/2025,Michael Lorenzen,KC,CIN,5,2,Under,7.8,7.4,7.2,8,22.50%,91,Great Am. Ball Pk,1.03,74°F,7 mph S,Adam Beck,Slightly Tight,110,46%,Reds average K% vs RHP
+5/26/2025,Adrian Houser,CWS,NYM,3,6,Over,7.3,7,7.1,7.5,22.00%,95,Citi Field,0.99,66°F,8 mph SW,Mark Wegner,Neutral,-105,49%,Mets average K% vs RHP
+5/26/2025,Kevin Gausman,TOR,TEX,5.5,6,Over,10.6,10.2,10,10.8,23.30%,97,Rogers Centre,1.01,70°F,5 mph W,Lance Barrett,Slightly Tight,-120,56%,Rangers high K% vs RHP
+5/26/2025,Yoshinobu Yamamoto,LAD,CLE,6.5,7,Over,10.2,10.5,10,10.7,22.40%,93,Dodger Stadium,1,69°F,6 mph SW,Doug Eddings,Neutral,-115,54%,Guardians below avg K% vs RHP
+5/26/2025,Gavin Williams,CLE,LAD,6,3,Under,9.8,9.4,9.1,10,21.70%,99,Dodger Stadium,1,69°F,6 mph SW,Doug Eddings,Neutral,105,45%,Dodgers low K% vs RHP
+5/26/2025,Mike Burrows,PIT,MIL,3.5,3,Under,8.1,8,7.8,8.2,23.50%,94,American Family Fld,1.04,65°F,10 mph NW,Morales,Slightly Tight,-110,51%,Brewers above avg K% vs RHP
+5/26/2025,Tanner Bibee,CLE,DET,5,8,Over,8.6,8.1,8.3,8.5,25.00%,88,Comerica Park,0.97,74°F,7 mph S,Brian O'Nora,Neutral,-115,53%,Tigers high K% vs RHP
+5/26/2025,Jack Flaherty,DET,CLE,5,8,Over,9.2,9.1,9.5,9,23.50%,92,Comerica Park,0.97,74°F,7 mph S,Brian O'Nora,Neutral,-110,51%,Guardians average K% vs RHP
+5/26/2025,Trevor Williams,WSH,ATL,4,3,Under,6.5,6.9,6.7,6.7,21.70%,99,Nationals Park,1.02,78°F,7 mph S,Torres,Neutral,105,47%,Braves average K% vs RHP
+5/26/2025,AJ Smith-Shawver,ATL,WSH,5,1,Under,9,9.1,9.2,9,22.00%,95,Nationals Park,1.02,78°F,7 mph S,Torres,Neutral,-110,50%,Nationals below avg K% vs RHP
+5/26/2025,George Kirby,SEA,HOU,4,4,Push,10.8,10.2,10.3,10.3,20.90%,98,Minute Maid Park,1,80°F,6 mph S,Morales,Neutral,-120,55%,Astros low K% vs RHP
+5/27/2025,Erick Fedde,STL,BAL,5,4,Under,8.3,7.9,7.8,8.5,21.10%,97,Camden Yards,0.98,73°F,6 mph S,Mark Carlson,Neutral,-110,48%,Orioles average K% vs RHP
+5/27/2025,Kevin Gausman,TOR,TEX,5.5,6,Over,10.5,10,10.2,10.7,23.20%,96,Rogers Centre,1.01,70°F,5 mph W,Lance Barrett,Slightly Tight,-120,56%,Rangers high K% vs RHP
+5/27/2025,Jacob deGrom,TEX,TOR,4.5,0,Under,11.8,11.2,11,12,22.40%,98,Rogers Centre,1.01,70°F,5 mph W,Lance Barrett,Slightly Tight,-130,54%,Blue Jays average K% vs RHP
+5/27/2025,Nick Martinez,CIN,KC,2.5,2,Under,7.7,7.4,7.2,8,21.80%,92,Great Am. Ball Pk,1.03,74°F,7 mph S,Adam Beck,Slightly Tight,105,47%,Royals below avg K% vs RHP
+5/27/2025,Michael Lorenzen,KC,CIN,5,2,Under,7.9,7.5,7.2,8.1,22.50%,91,Great Am. Ball Pk,1.03,74°F,7 mph S,Adam Beck,Slightly Tight,-110,49%,Reds average K% vs RHP
+5/27/2025,Charlie Morton,BAL,STL,4,5,Over,9.2,8.9,8.8,9.4,21.90%,94,Camden Yards,0.98,73°F,6 mph S,Mark Carlson,Neutral,-115,52%,Cardinals average K% vs RHP
+5/27/2025,Erick Fedde,STL,BAL,4,5,Over,8.3,7.9,7.8,8.5,21.10%,97,Camden Yards,0.98,73°F,6 mph S,Mark Carlson,Neutral,-110,48%,Orioles average K% vs RHP
+5/27/2025,Charlie Morton,BAL,STL,4,5,Over,9.2,8.9,8.8,9.4,21.90%,94,Camden Yards,0.98,73°F,6 mph S,Mark Carlson,Neutral,-115,52%,Cardinals average K% vs RHP
+5/27/2025,Kevin Gausman,TOR,TEX,5.5,6,Over,10.5,10,10.2,10.7,23.20%,96,Rogers Centre,1.01,70°F,5 mph W,Lance Barrett,Slightly Tight,-120,56%,Rangers high K% vs RHP
+5/27/2025,Jacob deGrom,TEX,TOR,4.5,0,Under,11.8,11.2,11,12,22.40%,98,Rogers Centre,1.01,70°F,5 mph W,Lance Barrett,Slightly Tight,-130,54%,Blue Jays average K% vs RHP
+5/27/2025,Yoshinobu Yamamoto,LAD,CLE,6.5,7,Over,10.2,10.5,10,10.7,22.40%,93,Dodger Stadium,1,69°F,6 mph SW,Doug Eddings,Neutral,-115,54%,Guardians below avg K% vs RHP
+5/27/2025,Gavin Williams,CLE,LAD,6,3,Under,9.8,9.4,9.1,10,21.70%,99,Dodger Stadium,1,69°F,6 mph SW,Doug Eddings,Neutral,105,45%,Dodgers low K% vs RHP
+5/27/2025,Zack Littell,TB,MIN,4,4,Push,8.6,8.2,8.4,8.7,22.20%,91,Tropicana Field,0.99,72°F,4 mph SW,Mark Wegner,Neutral,-110,49%,Twins average K% vs RHP
+5/27/2025,Chris Paddack Jr.,MIN,TB,4,5,Over,8.3,8,8.1,8.5,23.10%,94,Tropicana Field,0.99,72°F,4 mph SW,Mark Wegner,Neutral,110,46%,Rays above avg K% vs RHP
+5/27/2025,Andrew Heaney,PIT,AZ,3.5,2,Under,8.1,7.8,7.7,8.4,21.90%,97,Chase Field,1.01,74°F,7 mph S,Chris Guccione,Slightly Tight,-105,48%,D-backs average K% vs LHP
+5/27/2025,Randy Vásquez,SD,MIA,4,5,Over,7.8,7.5,7.3,8,21.90%,94,loanDepot Park,0.98,78°F,2 mph NE,J. Rackley,Neutral,105,44%,Marlins below avg K% vs RHP
+5/27/2025,Yoshinobu Yamamoto,LAD,CLE,6.5,7,Over,10.2,10.5,10,10.7,22.40%,93,Dodger Stadium,1,69°F,6 mph SW,Doug Eddings,Neutral,-115,54%,Guardians below avg K% vs RHP
+5/27/2025,Gavin Williams,CLE,LAD,6,3,Under,9.8,9.4,9.1,10,21.70%,99,Dodger Stadium,1,69°F,6 mph SW,Doug Eddings,Neutral,105,45%,Dodgers low K% vs RHP
+5/27/2025,Zack Littell,TB,MIN,4,4,Push,8.6,8.2,8.4,8.7,22.20%,91,Tropicana Field,0.99,72°F,4 mph SW,Mark Wegner,Neutral,-110,49%,Twins average K% vs RHP
+5/27/2025,Chris Paddack Jr.,MIN,TB,4,5,Over,8.3,8,8.1,8.5,23.10%,94,Tropicana Field,0.99,72°F,4 mph SW,Mark Wegner,Neutral,110,46%,Rays above avg K% vs RHP
+5/27/2025,Andrew Heaney,PIT,AZ,3.5,2,Under,8.1,7.8,7.7,8.4,21.90%,97,Chase Field,1.01,74°F,7 mph S,Chris Guccione,Slightly Tight,-105,48%,D-backs average K% vs LHP
+5/27/2025,Randy Vásquez,SD,MIA,4,5,Over,7.8,7.5,7.3,8,21.90%,94,loanDepot Park,0.98,78°F,2 mph NE,J. Rackley,Neutral,105,44%,Marlins below avg K% vs RHP
+5/27/2025,Yoshinobu Yamamoto,LAD,CLE,6.5,7,Over,10.2,10.5,10,10.7,22.40%,93,Dodger Stadium,1,69°F,6 mph SW,Doug Eddings,Neutral,-115,54%,Guardians below avg K% vs RHP
+5/27/2025,Gavin Williams,CLE,LAD,6,3,Under,9.8,9.4,9.1,10,21.70%,99,Dodger Stadium,1,69°F,6 mph SW,Doug Eddings,Neutral,105,45%,Dodgers low K% vs RHP
+5/27/2025,Zack Littell,TB,MIN,4,4,Push,8.6,8.2,8.4,8.7,22.20%,91,Tropicana Field,0.99,72°F,4 mph SW,Mark Wegner,Neutral,-110,49%,Twins average K% vs RHP
+5/27/2025,Chris Paddack Jr.,MIN,TB,4,5,Over,8.3,8,8.1,8.5,23.10%,94,Tropicana Field,0.99,72°F,4 mph SW,Mark Wegner,Neutral,110,46%,Rays above avg K% vs RHP
+5/27/2025,Andrew Heaney,PIT,AZ,3.5,2,Under,8.1,7.8,7.7,8.4,21.90%,97,Chase Field,1.01,74°F,7 mph S,Chris Guccione,Slightly Tight,-105,48%,D-backs average K% vs LHP
+5/27/2025,Randy Vásquez,SD,MIA,4,5,Over,7.8,7.5,7.3,8,21.90%,94,loanDepot Park,0.98,78°F,2 mph NE,J. Rackley,Neutral,105,44%,Marlins below avg K% vs RHP
+5/27/2025,Yoshinobu Yamamoto,LAD,CLE,6.5,7,Over,10.2,10.5,10,10.7,22.40%,93,Dodger Stadium,1,69°F,6 mph SW,Doug Eddings,Neutral,-115,54%,Guardians below avg K% vs RHP
+5/27/2025,Gavin Williams,CLE,LAD,6,3,Under,9.8,9.4,9.1,10,21.70%,99,Dodger Stadium,1,69°F,6 mph SW,Doug Eddings,Neutral,105,45%,Dodgers low K% vs RHP
+5/27/2025,Zack Littell,TB,MIN,4,4,Push,8.6,8.2,8.4,8.7,22.20%,91,Tropicana Field,0.99,72°F,4 mph SW,Mark Wegner,Neutral,-110,49%,Twins average K% vs RHP
+5/27/2025,Chris Paddack Jr.,MIN,TB,4,5,Over,8.3,8,8.1,8.5,23.10%,94,Tropicana Field,0.99,72°F,4 mph SW,Mark Wegner,Neutral,110,46%,Rays above avg K% vs RHP
+5/27/2025,Andrew Heaney,PIT,AZ,3.5,2,Under,8.1,7.8,7.7,8.4,21.90%,97,Chase Field,1.01,74°F,7 mph S,Chris Guccione,Slightly Tight,-105,48%,D-backs average K% vs LHP
+5/27/2025,Randy Vásquez,SD,MIA,4,5,Over,7.8,7.5,7.3,8,21.90%,94,loanDepot Park,0.98,78°F,2 mph NE,J. Rackley,Neutral,105,44%,Marlins below avg K% vs RHP
+5/27/2025,Yoshinobu Yamamoto,LAD,CLE,6.5,7,Over,10.2,10.5,10,10.7,22.40%,93,Dodger Stadium,1,69°F,6 mph SW,Doug Eddings,Neutral,-115,54%,Guardians below avg K% vs RHP
+5/27/2025,Gavin Williams,CLE,LAD,6,3,Under,9.8,9.4,9.1,10,21.70%,99,Dodger Stadium,1,69°F,6 mph SW,Doug Eddings,Neutral,105,45%,Dodgers low K% vs RHP
+5/27/2025,Zack Littell,TB,MIN,4,4,Push,8.6,8.2,8.4,8.7,22.20%,91,Tropicana Field,0.99,72°F,4 mph SW,Mark Wegner,Neutral,-110,49%,Twins average K% vs RHP
+5/27/2025,Chris Paddack Jr.,MIN,TB,4,5,Over,8.3,8,8.1,8.5,23.10%,94,Tropicana Field,0.99,72°F,4 mph SW,Mark Wegner,Neutral,110,46%,Rays above avg K% vs RHP
+5/27/2025,Andrew Heaney,PIT,AZ,3.5,2,Under,8.1,7.8,7.7,8.4,21.90%,97,Chase Field,1.01,74°F,7 mph S,Chris Guccione,Slightly Tight,-105,48%,D-backs average K% vs LHP
+5/27/2025,Randy Vásquez,SD,MIA,4,5,Over,7.8,7.5,7.3,8,21.90%,94,loanDepot Park,0.98,78°F,2 mph NE,J. Rackley,Neutral,105,44%,Marlins below avg K% vs RHP
+5/26/2025,David Peterson,NYM,WSH,5,6,Over,9.3,8.8,8.9,9.5,22.00%,96,Citi Field,0.99,68°F,6 mph SW,Mark Wegner,Neutral,-110,50%,Nationals average K% vs LHP
+5/26/2025,Zach Eflin,BAL,DET,5,5,Push,7.9,7.6,7.2,8.1,20.50%,98,Camden Yards,0.98,69°F,7 mph SW,Chris Conroy,Neutral,-110,48%,Tigers low K% vs RHP
+5/26/2025,Walker Buehler,BOS,TB,4.5,7,Over,9.1,8.7,8.8,9,21.70%,97,Fenway Park,0.97,70°F,8 mph SW,Alan Porter,Slightly Wide,-115,52%,Rays average K% vs RHP
+5/26/2025,Jake Irvin,WSH,NYM,3.5,4,Over,8,7.8,7.9,8.1,22.10%,98,Citi Field,0.99,68°F,6 mph SW,Mark Wegner,Neutral,-110,50%,Mets average K% vs RHP
+5/26/2025,Zack Littell,TB,BOS,4,6,Over,8.6,8.2,8.4,8.7,22.20%,91,Fenway Park,0.97,70°F,8 mph SW,Alan Porter,Slightly Wide,-110,51%,Red Sox average K% vs RHP
+5/25/2025,Max Fried,NYY,COL,5.5,7,Over,8.5,9,8.7,8.7,23.80%,91,Yankee Stadium,0.99,67°F,5 mph SSW,C.B. Bucknor,Neutral,-110,50%,Rockies high K% vs LHP
+5/25/2025,Grant Holmes,ATL,SD,3.5,6,Over,8,7.7,7.9,8.2,22.00%,97,Petco Park,0.98,70°F,6 mph SW,Mark Carlson,Neutral,110,46%,Padres average K% vs RHP
+5/25/2025,Andrew Abbott,CIN,CHC,4.5,2,Under,9.1,8.8,8.6,9.3,21.20%,99,Wrigley Field,1.02,68°F,8 mph SW,Alan Porter,Slightly Wide,-105,48%,Cubs below avg K% vs LHP
+5/25/2025,Colin Rea,CHC,CIN,4,8,Over,7.6,7.3,7.5,7.8,22.70%,94,Wrigley Field,1.02,68°F,8 mph SW,Alan Porter,Slightly Wide,-110,51%,Reds high K% vs RHP
+5/25/2025,Framber Valdez,HOU,SEA,6,5,Under,8.7,8.3,8,8.9,22.40%,97,T-Mobile Park,1,69°F,6 mph SW,Vic Carapazza,Neutral,-120,53%,Mariners average K% vs LHP
+5/25/2025,Bryan Woo,SEA,HOU,5.5,5,Under,9.4,9.1,9,9.6,20.50%,99,T-Mobile Park,1,69°F,6 mph SW,Vic Carapazza,Neutral,110,45%,Astros low K% vs RHP
+5/25/2025,Max Fried,NYY,COL,5.5,7,Over,8.5,9,8.7,8.7,23.80%,91,Yankee Stadium,0.99,67°F,5 mph SSW,C.B. Bucknor,Neutral,-110,50%,Rockies high K% vs LHP
+5/25/2025,Grant Holmes,ATL,SD,3.5,6,Over,8,7.7,7.9,8.2,22.00%,97,Petco Park,0.98,70°F,6 mph SW,Mark Carlson,Neutral,110,46%,Padres average K% vs RHP
+5/25/2025,Andrew Abbott,CIN,CHC,4.5,2,Under,9.1,8.8,8.6,9.3,21.20%,99,Wrigley Field,1.02,68°F,8 mph SW,Alan Porter,Slightly Wide,-105,48%,Cubs below avg K% vs LHP
+5/25/2025,Colin Rea,CHC,CIN,4,8,Over,7.6,7.3,7.5,7.8,22.70%,94,Wrigley Field,1.02,68°F,8 mph SW,Alan Porter,Slightly Wide,-110,51%,Reds high K% vs RHP
+5/25/2025,Framber Valdez,HOU,SEA,6,5,Under,8.7,8.3,8,8.9,22.40%,97,T-Mobile Park,1,69°F,6 mph SW,Vic Carapazza,Neutral,-120,53%,Mariners average K% vs LHP
+5/25/2025,Bryan Woo,SEA,HOU,5.5,5,Under,9.4,9.1,9,9.6,20.50%,99,T-Mobile Park,1,69°F,6 mph SW,Vic Carapazza,Neutral,110,45%,Astros low K% vs RHP
+5/24/2025,Jake Irvin,WSH,SF,3.5,7,Over,6.2,5.6,7,5.6,22.10%,92,Nationals Park,0.99,81°F,6 mph SSE,Erich Bacchus,Neutral,-110,51%,Home splits: 5.62 K/9
+5/24/2025,Kyle Harrison,SF,WSH,4,4,Push,9.2,8.7,8,9,19.50%,90,Nationals Park,0.99,81°F,6 mph SSE,Erich Bacchus,Neutral,-110,49%,Recent trade to SF
+5/24/2025,Mitch Keller,PIT,MIL,4.5,7,Over,7.2,7.1,7.5,7.3,21.00%,95,PNC Park,0.97,72°F,4 mph NW,—,—,-108,48%,"K% dropped, durable"
+5/24/2025,Quinn Priester,MIL,PIT,2.5,7,Over,6,6.4,6.8,6.3,21.00%,93,American Family,0.98,74°F,5 mph W,—,—,105,47%,Starter K/9: 6.0
+5/24/2025,Jack Leiter,TEX,CWS,4.5,3,Under,9,7.8,7.2,7.5,22.00%,91,Globe Life Field,0.98,72°F,4 mph SW,—,—,-115,52%,"Young arm, high upside"
+5/24/2025,Kyle Freeland,COL,NYY,3.5,3,Under,7.3,5.9,6.5,5.8,25.00%,99,Yankee Stadium,0.99,67°F,5 mph SSW,—,—,120,44%,Struggles on road
+5/25/2025,Ryan Gusto,HOU,PIT,4,3,Under,8.3,8,8.1,8.5,23.60%,93,PNC Park,1.01,71°F,5 mph N,—,—,-110,49%,Pirates average K% vs LHP
+5/25/2025,Mike Burrows,PIT,HOU,3.5,6,Over,8.1,8,7.8,8.2,23.50%,94,PNC Park,1.01,71°F,5 mph N,—,—,-110,51%,Astros above avg K% vs RHP
+5/25/2025,Matthew Boyd,CHC,WSH,5,6,Over,8.7,8.5,8.4,8.8,22.20%,92,Nationals Park,0.99,81°F,6 mph SSE,—,—,-108,48%,Nationals average K% vs LHP
+5/25/2025,Clarke Schmidt,NYY,CLE,5,8,Over,9.4,9,9.2,9.6,23.80%,91,Yankee Stadium,0.99,67°F,5 mph SSW,C.B. Bucknor,Neutral,-110,50%,Guardians high K% vs RHP
+5/25/2025,Luis L. Ortiz,CLE,NYY,5,7,Over,8,7.6,7.2,8.2,23.60%,88,Yankee Stadium,0.99,67°F,5 mph SSW,C.B. Bucknor,Neutral,105,46%,Yankees average K% vs RHP
+6/17/2025,Logan Gilbert,SEA,BOS,6.5,10,Over,12.8,13.1,12.2,12.5,26.70%,91,T-Mobile Park,1.01,68°F,6 mph SW,TBD,Neutral,-120,54%,Matched season high in return from IL; 21 whiffs on 48 swings123
+6/17/2025,Lucas Giolito,BOS,SEA,5,10,Over,8.1,8.4,8.7,8.3,27.50%,92,T-Mobile Park,1.01,68°F,6 mph SW,TBD,Neutral,-110,49%,"Six shutout innings, 10 Ks, Mariners top-5 K% vs RHP4563"
+6/17/2025,Mitch Spence,OAK,HOU,3.5,2,Under,7.8,7.2,7,7.5,20.50%,99,Oakland Coliseum,1,70°F,8 mph W,TBD,Neutral,105,45%,"5 IP, 2 Ks, 1 ER; Astros bottom-5 K% vs RHP789"
+6/17/2025,Ryan Gusto,HOU,OAK,4.5,8,Over,9.8,9.2,9,9.5,24.50%,94,Oakland Coliseum,1,70°F,8 mph W,TBD,Neutral,-105,47%,"8 Ks in 5 IP, season high, vs high-K A's lineup101112"
+6/17/2025,Dylan Cease,SD,LAD,6,9,Over,11.7,11.2,10.9,11.4,23.00%,97,Dodger Stadium,1,70°F,7 mph SW,TBD,Neutral,-115,52%,"9 Ks in 5 IP, struck out first 5 batters, strong whiff rates"
