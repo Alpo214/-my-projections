@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 
-st.title("Pitcher Strikeouts Probability Analyzer")
+st.title("Pitcher Strikeouts Probability Analyzer — Large Sample Mode")
 
 def load_csv(uploaded_file):
     try:
@@ -39,47 +39,8 @@ if uploaded_file is not None:
         st.write(f"Games for {pitcher}:")
         st.write(pitcher_data[['date', 'opponent'] + [c for c in ['actual_strikeouts'] if c in pitcher_data.columns]])
 
-        max_games = min(20, len(pitcher_data))
-        num_games = st.slider("How many recent games to analyze?", 3, len(pitcher_data), max_games)
-        recent_games = pitcher_data.tail(num_games)
-
-        # User inputs their over/under line
-        user_line = st.number_input("Set your Over/Under strikeouts line (e.g., 5.5):", step=0.5, value=5.5)
-
-        # Calculate probabilities
-        so = pd.to_numeric(recent_games['actual_strikeouts'], errors='coerce').dropna()
-        over_count = (so > user_line).sum()
-        under_count = (so < user_line).sum()
-        push_count = (so == user_line).sum()
-        total_games = len(so)
-
-        prob_over = over_count / total_games * 100 if total_games else 0
-        prob_under = under_count / total_games * 100 if total_games else 0
-        prob_push = push_count / total_games * 100 if total_games else 0
-
-        # Recommendation
-        if abs(prob_over - prob_under) < 5:
-            recommendation = "No clear edge (chance is about 50/50)."
-        elif prob_over > prob_under:
-            recommendation = f"Best probability: **Over** ({prob_over:.1f}%)"
-        else:
-            recommendation = f"Best probability: **Under** ({prob_under:.1f}%)"
-
-        st.subheader("Strikeout Projections & Probability")
-        st.markdown(f"""
-        - Average strikeouts (last {total_games} games): **{so.mean():.2f}**
-        - Your line: **{user_line}**
-        - Over: **{over_count} times ({prob_over:.1f}%)**
-        - Under: **{under_count} times ({prob_under:.1f}%)**
-        - Push (exact): **{push_count} times ({prob_push:.1f}%)**
-        """)
-        st.success(f"{recommendation}")
-
-        st.bar_chart(pd.DataFrame({
-            'Strikeouts': so.values
-        }, index=recent_games['date'].dt.strftime('%Y-%m-%d')))
-
-        st.caption("Change the over/under line and recent games to update your win probability instantly!")
-
-else:
-    st.info("Upload your data CSV to start.")
+        # NEW: slider can go up to all games for this pitcher
+        max_games = len(pitcher_data)
+        default_games = min(20, max_games)
+        num_games = st.slider(
+            "How many most recent games
