@@ -37,9 +37,10 @@ if uploaded_file is not None:
         pitcher_data = pitcher_data.sort_values('date')
 
         st.write(f"Games for {pitcher}:")
-        st.write(pitcher_data[['date', 'opponent'] + [c for c in ['actual_strikeouts'] if c in pitcher_data.columns]])
+        st.write(
+            pitcher_data[['date', 'opponent'] + [c for c in ['actual_strikeouts'] if c in pitcher_data.columns]]
+        )
 
-        # NEW: slider can go up to all games for this pitcher
         max_games = len(pitcher_data)
         default_games = min(20, max_games)
         num_games = st.slider(
